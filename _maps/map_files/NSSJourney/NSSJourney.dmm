@@ -187,6 +187,11 @@
 "cI" = (
 /turf/open/floor/engine,
 /area/space)
+"cK" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
+/area/space)
 "cM" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/button/door/directional/south{
@@ -261,6 +266,16 @@
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
 	name = "Pure to Fuel Pipe"
+	},
+/turf/open/floor/plating,
+/area/space)
+"do" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "Air to Distro"
+	},
+/obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -620,6 +635,12 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"hg" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
 "hl" = (
 /obj/structure/closet/firecloset,
 /obj/effect/turf_decal/delivery,
@@ -680,6 +701,20 @@
 /obj/machinery/atmospherics/components/binary/pump/on{
 	name = "Unfiltered & Air to Mix"
 	},
+/turf/open/floor/plating,
+/area/space)
+"hY" = (
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
+/area/space)
+"hZ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
 /turf/open/floor/plating,
 /area/space)
 "ib" = (
@@ -799,11 +834,25 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"kg" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
+/area/space)
 "kh" = (
 /obj/machinery/camera/directional/east{
 	c_tag = "Atmospherics Tank - N2O"
 	},
 /turf/open/floor/engine/n2o,
+/area/space)
+"kj" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Distro Staging to Distro"
+	},
+/turf/open/floor/plating,
 /area/space)
 "kk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output{
@@ -823,6 +872,12 @@
 "kv" = (
 /obj/machinery/duct,
 /turf/open/floor/iron/dark,
+/area/space)
+"kF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 10
+	},
+/turf/open/floor/plating,
 /area/space)
 "kG" = (
 /obj/structure/rack,
@@ -890,6 +945,12 @@
 "lp" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/engine,
+/area/space)
+"ls" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 5
+	},
+/turf/open/floor/plating,
 /area/space)
 "lz" = (
 /obj/effect/turf_decal/vg_decals/atmos/oxygen{
@@ -1066,6 +1127,12 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/space)
+"nG" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
+	initialize_directions = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "nJ" = (
 /obj/machinery/computer/atmos_control/mix_tank{
 	dir = 1
@@ -1079,6 +1146,18 @@
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/machinery/meter,
 /turf/closed/wall/r_wall,
+/area/space)
+"nQ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"nZ" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/space)
 "oa" = (
 /obj/structure/table,
@@ -1375,6 +1454,13 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"sb" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
+/area/space)
 "sg" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
@@ -1433,6 +1519,11 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/space)
+"tk" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible,
+/obj/machinery/meter/monitored/distro_loop,
+/turf/open/floor/plating,
+/area/space)
 "tx" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/effect/turf_decal/delivery,
@@ -1474,6 +1565,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"ue" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
 /area/space)
 "ug" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/yellow/visible,
@@ -1613,6 +1708,13 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
 /area/space)
+"wb" = (
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "wp" = (
 /obj/machinery/atmospherics/components/binary/pump/off{
 	dir = 4;
@@ -1720,9 +1822,9 @@
 /turf/open/floor/iron,
 /area/space)
 "yn" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "Distro Staging to Distro"
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -2351,6 +2453,10 @@
 	},
 /turf/open/floor/engine/plasma,
 /area/space)
+"GA" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
+/turf/closed/wall/r_wall,
+/area/space)
 "GE" = (
 /obj/machinery/power/supermatter_crystal/engine,
 /turf/open/floor/engine,
@@ -2424,6 +2530,20 @@
 /obj/machinery/computer/atmos_control/nitrogen_tank{
 	dir = 4
 	},
+/turf/open/floor/plating,
+/area/space)
+"Hv" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/bridge_pipe/purple/visible,
+/turf/open/floor/plating,
+/area/space)
+"Hw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
+	dir = 8
+	},
+/obj/machinery/meter,
 /turf/open/floor/plating,
 /area/space)
 "Hz" = (
@@ -2655,6 +2775,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/engine,
 /area/space)
+"KT" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Distro to Waste"
+	},
+/turf/open/floor/plating,
+/area/space)
 "KV" = (
 /obj/machinery/disposal/bin,
 /obj/machinery/button/door/directional/west{
@@ -2735,6 +2862,12 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
+/area/space)
+"LQ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 6
+	},
+/turf/open/floor/plating,
 /area/space)
 "LV" = (
 /obj/structure/rack,
@@ -3156,6 +3289,12 @@
 	},
 /turf/open/floor/plastic,
 /area/space)
+"Su" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/space)
 "SE" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics"
@@ -3330,6 +3469,13 @@
 /area/space)
 "Vb" = (
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
+/turf/open/floor/plating,
+/area/space)
+"VC" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/space)
 "VM" = (
@@ -3672,6 +3818,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"ZT" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer5,
+/turf/open/floor/plating,
 /area/space)
 "ZV" = (
 /obj/machinery/atmospherics/components/binary/pump{
@@ -45482,7 +45635,7 @@ ma
 ma
 ma
 ma
-nK
+dS
 TE
 dC
 dC
@@ -45735,10 +45888,10 @@ BC
 Xd
 LW
 jA
-Xd
-Xd
-Xd
-Xd
+ue
+ue
+ue
+ls
 ma
 TE
 dC
@@ -45995,7 +46148,7 @@ Il
 PH
 PH
 PH
-PH
+wb
 mR
 Eh
 dC
@@ -46252,7 +46405,7 @@ As
 Ua
 zd
 Xd
-Xd
+nQ
 ma
 vG
 dC
@@ -46509,7 +46662,7 @@ jt
 Gs
 SZ
 Xd
-Xd
+nQ
 ma
 vG
 qw
@@ -46766,7 +46919,7 @@ xT
 EK
 nt
 Ua
-Ua
+VC
 xV
 bM
 VP
@@ -47023,7 +47176,7 @@ oF
 ug
 iC
 Xd
-Xd
+nQ
 ma
 vG
 ZW
@@ -47280,7 +47433,7 @@ Xd
 pk
 sg
 rq
-UT
+yn
 ol
 hC
 vb
@@ -47532,12 +47685,12 @@ Xd
 mx
 Xd
 Si
-oF
+hg
 Xd
 EK
 SZ
 Xd
-Xd
+nQ
 ma
 vG
 qw
@@ -47794,7 +47947,7 @@ Xd
 EK
 QV
 Ua
-Ua
+VC
 xV
 bM
 VP
@@ -48034,7 +48187,7 @@ Xd
 Xd
 dS
 Xd
-Xd
+qG
 Xd
 Xd
 Xd
@@ -48051,7 +48204,7 @@ Xd
 GL
 hJ
 Xd
-Xd
+nQ
 ma
 vG
 ZW
@@ -48290,10 +48443,10 @@ Xd
 Xd
 Xd
 dS
-Xd
-Xd
-Xd
-yn
+LQ
+Hv
+Vb
+Vb
 Vb
 cX
 Xd
@@ -48308,7 +48461,7 @@ Xd
 NN
 Tu
 rq
-UT
+yn
 ol
 hC
 vb
@@ -48547,8 +48700,8 @@ Xd
 Xd
 Xd
 dS
-Xd
-Xd
+kj
+qG
 Xd
 Xd
 nK
@@ -48565,7 +48718,7 @@ Xd
 EK
 SZ
 Xd
-Xd
+nQ
 ma
 vG
 qw
@@ -48803,14 +48956,14 @@ Xd
 Xd
 Xd
 Xd
-um
-Ma
-Xd
-Xd
-Xd
-nK
-ZE
-Xd
+GA
+tk
+do
+Hw
+jA
+cK
+hZ
+ls
 Xd
 qG
 Zv
@@ -48822,7 +48975,7 @@ Xd
 EK
 Tv
 Ua
-Ua
+VC
 xV
 bM
 VP
@@ -49061,13 +49214,13 @@ Xd
 Xd
 Xd
 dS
-nK
-nK
-nK
-tR
+KT
+qG
+nZ
+Xd
 nK
 ZE
-Xd
+nQ
 Xd
 qG
 Xd
@@ -49079,7 +49232,7 @@ Xd
 EK
 uH
 Xd
-Xd
+nQ
 ma
 vG
 ZW
@@ -49318,13 +49471,13 @@ Xd
 Xd
 Xd
 dS
-Xd
-Xd
+qG
+qG
 Xd
 Xd
 ma
 ZE
-Xd
+nQ
 Xd
 qG
 Xd
@@ -49336,7 +49489,7 @@ UT
 tU
 ch
 rq
-UT
+yn
 ol
 hC
 vb
@@ -49574,14 +49727,14 @@ Xd
 Xd
 Xd
 Xd
-dS
-Xd
-Xd
-Xd
+um
+Ma
+Ma
+nG
 Xd
 ma
 ZE
-Xd
+nQ
 Xd
 qG
 Xd
@@ -49593,7 +49746,7 @@ Xd
 EK
 SZ
 Xd
-Xd
+nQ
 ma
 vG
 qw
@@ -49832,25 +49985,25 @@ Xd
 Xd
 Xd
 dS
-Xd
-Xd
-Xd
-Xd
+nK
+nK
+nK
+tR
 nK
 ZE
-Xd
-Xd
-qG
-Xd
-BC
-ZE
-Xd
-Xd
-Xd
-EK
-SZ
-Xd
-Xd
+kF
+ue
+kg
+ue
+sb
+hZ
+ue
+ue
+ue
+hY
+ZT
+ue
+Su
 ma
 vG
 dC
@@ -52678,7 +52831,7 @@ Xd
 Xd
 Xd
 Xd
-nK
+dS
 vG
 dC
 dC
