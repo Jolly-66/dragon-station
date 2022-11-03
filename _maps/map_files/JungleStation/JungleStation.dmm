@@ -32,10 +32,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron/dark,
 /area/space)
-"dp" = (
-/obj/structure/stairs/west,
-/turf/open/openspace,
-/area/space)
 "ea" = (
 /obj/structure/reagent_dispensers/wall/peppertank/directional/west,
 /turf/open/floor/iron/dark,
@@ -329,10 +325,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/space)
-"YU" = (
-/obj/structure/stairs/east,
-/turf/open/openspace,
 /area/space)
 "YY" = (
 /obj/item/radio/intercom/directional/east,
@@ -110549,11 +110541,11 @@ JT
 JT
 JT
 JT
-JT
-JT
-JT
-JT
-JT
+iF
+iF
+iF
+iF
+iF
 JT
 JT
 JT
@@ -110806,11 +110798,11 @@ JT
 JT
 JT
 JT
-JT
+iF
 Ao
 Ao
 Ao
-JT
+iF
 JT
 JT
 JT
@@ -111063,11 +111055,11 @@ JT
 JT
 JT
 JT
-JT
+iF
 Ao
 Ao
 Ao
-JT
+iF
 JT
 JT
 JT
@@ -111321,9 +111313,9 @@ JT
 JT
 JT
 iF
-dp
-dp
-dp
+Ao
+Ao
+Ao
 iF
 iF
 iF
@@ -112094,8 +112086,8 @@ JT
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 Mh
 Mh
@@ -112351,8 +112343,8 @@ JT
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 iF
@@ -112608,8 +112600,8 @@ iF
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 hg
@@ -112865,8 +112857,8 @@ Ao
 Ao
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 Ja
@@ -113122,8 +113114,8 @@ Ao
 Ao
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 rt
@@ -113379,8 +113371,8 @@ Ao
 Ao
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 nb
@@ -113636,8 +113628,8 @@ iF
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 di
@@ -113893,8 +113885,8 @@ JT
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 iF
 iF
@@ -114150,8 +114142,8 @@ JT
 iF
 Mh
 KL
-Mh
-Mh
+KL
+KL
 Mh
 Mh
 Mh
@@ -114919,9 +114911,9 @@ JT
 JT
 JT
 iF
-YU
-YU
-YU
+Ao
+Ao
+Ao
 iF
 iF
 iF
@@ -115175,11 +115167,11 @@ JT
 JT
 JT
 JT
-JT
+iF
 Ao
 Ao
 Ao
-JT
+iF
 JT
 JT
 JT
@@ -115432,11 +115424,11 @@ JT
 JT
 JT
 JT
-JT
+iF
 Ao
 Ao
 Ao
-JT
+iF
 JT
 JT
 JT
@@ -115689,11 +115681,11 @@ JT
 JT
 JT
 JT
-JT
-JT
-JT
-JT
-JT
+iF
+iF
+iF
+iF
+iF
 JT
 JT
 JT
