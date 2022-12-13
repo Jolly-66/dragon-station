@@ -10,7 +10,7 @@
 /turf/open/floor/iron/kitchen,
 /area/space)
 "al" = (
-/obj/structure/chair/sofa{
+/obj/structure/chair/sofa/middle{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -206,7 +206,7 @@
 /turf/open/floor/wood,
 /area/space)
 "en" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle,
 /turf/open/floor/wood/large,
 /area/space)
 "eq" = (
@@ -830,7 +830,7 @@
 /turf/open/floor/wood,
 /area/space)
 "oS" = (
-/obj/structure/chair/sofa{
+/obj/structure/chair/sofa/middle{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
@@ -1545,12 +1545,6 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/space)
-"CG" = (
-/obj/machinery/computer/chef_order{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/space)
 "CL" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/iron/kitchen,
@@ -1861,7 +1855,7 @@
 /turf/open/floor/plating/elevatorshaft,
 /area/space)
 "IZ" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle,
 /obj/structure/window/spawner/north,
 /turf/open/floor/wood/large,
 /area/space)
@@ -2118,12 +2112,6 @@
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood,
 /area/space)
-"NA" = (
-/obj/effect/spawner/random/entertainment/lighter{
-	pixel_x = -6
-	},
-/turf/open/misc/dirt,
-/area/space)
 "ND" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2167,7 +2155,7 @@
 /turf/open/floor/wood,
 /area/space)
 "Ot" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle,
 /turf/open/floor/wood,
 /area/space)
 "Oz" = (
@@ -2832,7 +2820,7 @@
 /turf/open/floor/plating,
 /area/space)
 "Ya" = (
-/obj/structure/chair/sofa{
+/obj/structure/chair/sofa/middle{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -96650,7 +96638,7 @@ iF
 sU
 iF
 JY
-CG
+Mh
 Fb
 iF
 sI
@@ -113925,7 +113913,7 @@ JT
 JT
 JT
 JT
-NA
+JT
 JT
 JT
 JT
