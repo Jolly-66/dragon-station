@@ -32,6 +32,7 @@ GLOBAL_PROTECT(href_token)
 	var/deadmined
 
 	var/datum/filter_editor/filteriffic
+	var/datum/particle_editor/particle_test
 	var/datum/colorblind_tester/color_test = new
 	var/datum/plane_master_debug/plane_debug
 
@@ -194,6 +195,9 @@ GLOBAL_PROTECT(href_token)
 
 	cached_feedback_link = feedback_query.item[1] || NO_FEEDBACK_LINK
 	qdel(feedback_query)
+
+	if (cached_feedback_link == NO_FEEDBACK_LINK) // Because we don't want to send fake clickable links.
+		return null
 
 	return cached_feedback_link
 

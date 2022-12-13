@@ -22,7 +22,8 @@
 	var/datum/status_effect/shadow_cloak/active_cloak
 
 /datum/action/cooldown/spell/shadow_cloak/Remove(mob/living/remove_from)
-	uncloak_mob(remove_from, show_message = FALSE)
+	if(active_cloak)
+		uncloak_mob(remove_from, show_message = FALSE)
 	return ..()
 
 /datum/action/cooldown/spell/shadow_cloak/is_valid_target(atom/cast_on)
@@ -102,7 +103,7 @@
 
 	removed.Knockdown(0.5 SECONDS)
 	removed.add_movespeed_modifier(/datum/movespeed_modifier/shadow_cloak/early_remove)
-	addtimer(CALLBACK(removed, /mob/proc/remove_movespeed_modifier, /datum/movespeed_modifier/shadow_cloak/early_remove), 2 MINUTES, TIMER_UNIQUE|TIMER_OVERRIDE)
+	addtimer(CALLBACK(removed, TYPE_PROC_REF(/mob, remove_movespeed_modifier), /datum/movespeed_modifier/shadow_cloak/early_remove), 2 MINUTES, TIMER_UNIQUE|TIMER_OVERRIDE)
 	StartCooldown(uncloak_time * 2/3)
 
 /// Signal proc for [SIGNAL_REMOVETRAIT] via [TRAIT_ALLOW_HERETIC_CASTING], losing our focus midcast will throw us out.

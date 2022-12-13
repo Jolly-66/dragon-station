@@ -38,7 +38,13 @@ All effects don't start immediately, but rather get worse over time; the rate is
 91-100: Dangerously toxic - swift death
 */
 
-/datum/reagent/consumable/ethanol/New()
+/datum/reagent/consumable/ethanol/New(list/data)
+	if(LAZYLEN(data))
+		if(data["quality"])
+			quality = data["quality"]
+			name = "Natural " + name
+		if(data["boozepwr"])
+			boozepwr = data["boozepwr"]
 	addiction_types = list(/datum/addiction/alcohol = 0.05 * boozepwr)
 	return ..()
 
@@ -84,9 +90,8 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	var/mob/living/carbon/exposed_carbon = exposed_mob
 	var/power_multiplier = boozepwr / 65 // Weak alcohol has less sterilizing power
 
-	for(var/s in exposed_carbon.surgeries)
-		var/datum/surgery/surgery = s
-		surgery.speed_modifier = max(0.1*power_multiplier, surgery.speed_modifier)
+	for(var/datum/surgery/surgery as anything in exposed_carbon.surgeries)
+		surgery.speed_modifier = max(0.1 * power_multiplier, surgery.speed_modifier)
 
 /datum/reagent/consumable/ethanol/beer
 	name = "Beer"
@@ -672,7 +677,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 			COMSIG_REAGENTS_CLEAR_REAGENTS,
 			COMSIG_REAGENTS_REACTED,
 		)
-		RegisterSignal(drink.reagents, reagent_change_signals, PROC_REF(on_reagent_change))
+		RegisterSignals(drink.reagents, reagent_change_signals, PROC_REF(on_reagent_change))
 
 	return ..()
 
@@ -750,11 +755,13 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	to_chat(drinker, span_notice("You feel [tough_text]!"))
 	drinker.maxHealth += 10 //Brave Bull makes you sturdier, and thus capable of withstanding a tiny bit more punishment.
 	drinker.health += 10
+	ADD_TRAIT(drinker, TRAIT_FEARLESS, type)
 
 /datum/reagent/consumable/ethanol/brave_bull/on_mob_end_metabolize(mob/living/drinker)
 	to_chat(drinker, span_notice("You no longer feel [tough_text]."))
 	drinker.maxHealth -= 10
 	drinker.health = min(drinker.health - 10, drinker.maxHealth) //This can indeed crit you if you're alive solely based on alchol ingestion
+	REMOVE_TRAIT(drinker, TRAIT_FEARLESS, type)
 
 /datum/reagent/consumable/ethanol/tequila_sunrise
 	name = "Tequila Sunrise"
