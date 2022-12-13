@@ -182,6 +182,19 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"dK" = (
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/wood,
+/area/space)
+"dS" = (
+/obj/structure/chair/sofa/bench/right,
+/turf/open/floor/wood,
+/area/space)
+"dT" = (
+/obj/structure/destructible/cult/item_dispenser/archives/library,
+/obj/item/book/codex_gigas,
+/turf/open/floor/engine/cult,
+/area/space)
 "dW" = (
 /obj/effect/spawner/random/entertainment/arcade{
 	dir = 8
@@ -228,6 +241,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/checker,
+/area/space)
+"ej" = (
+/obj/machinery/door/airlock/glass_large{
+	name = "Library";
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/space)
 "ep" = (
 /obj/structure/table,
@@ -319,6 +339,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"fl" = (
+/obj/effect/spawner/xmastree,
+/turf/open/floor/carpet,
+/area/space)
 "fm" = (
 /turf/open/floor/iron/stairs{
 	dir = 1
@@ -327,6 +351,17 @@
 "fr" = (
 /obj/machinery/smartfridge,
 /turf/closed/wall,
+/area/space)
+"ft" = (
+/obj/structure/chair/sofa/bench/left,
+/turf/open/floor/wood,
+/area/space)
+"fx" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/space)
 "fA" = (
 /obj/structure/table/wood/fancy/red,
@@ -609,6 +644,7 @@
 "lm" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/window/spawner,
+/obj/structure/hedge,
 /turf/open/floor/wood/large,
 /area/space)
 "lr" = (
@@ -719,6 +755,10 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/grass,
+/area/space)
+"mZ" = (
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
 /area/space)
 "nm" = (
 /obj/structure/dresser,
@@ -851,6 +891,12 @@
 	name = "Shower"
 	},
 /turf/open/floor/plastic,
+/area/space)
+"pl" = (
+/obj/machinery/door/airlock/glass_large{
+	name = "Library"
+	},
+/turf/open/floor/iron,
 /area/space)
 "pr" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners{
@@ -1197,6 +1243,13 @@
 	},
 /turf/open/floor/eighties,
 /area/space)
+"uh" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 4
+	},
+/turf/open/floor/wood,
+/area/space)
 "ul" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/entertainment/coin,
@@ -1279,6 +1332,12 @@
 	pixel_y = 32
 	},
 /turf/open/floor/carpet,
+/area/space)
+"vn" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/structure/window/spawner/north,
+/turf/open/floor/wood,
 /area/space)
 "vv" = (
 /obj/structure/bookcase/random/adult,
@@ -1514,6 +1573,18 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/space)
+"yX" = (
+/obj/structure/table/wood,
+/obj/item/folder/blue{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/folder/yellow{
+	pixel_x = -4
+	},
+/obj/item/pen/blue,
+/turf/open/floor/wood,
+/area/space)
 "zj" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/iron/dark,
@@ -1554,6 +1625,10 @@
 "Au" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/wood/tile,
+/area/space)
+"AG" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood,
 /area/space)
 "AR" = (
 /obj/structure/stairs/south{
@@ -1743,6 +1818,13 @@
 	},
 /turf/open/floor/eighties,
 /area/space)
+"Dp" = (
+/obj/machinery/door/morgue{
+	name = "Private Study";
+	req_access = list("library")
+	},
+/turf/open/floor/engine/cult,
+/area/space)
 "Dt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -1842,6 +1924,9 @@
 	},
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
+/area/space)
+"EP" = (
+/turf/open/floor/engine/cult,
 /area/space)
 "ER" = (
 /obj/effect/turf_decal/stripes/line{
@@ -2072,6 +2157,13 @@
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/iron,
 /area/space)
+"JW" = (
+/obj/machinery/door/airlock/glass_large{
+	name = "Library";
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/space)
 "Kb" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/wood/large,
@@ -2229,6 +2321,11 @@
 	},
 /turf/open/openspace,
 /area/space)
+"Nd" = (
+/obj/structure/window/spawner/west,
+/obj/machinery/libraryscanner,
+/turf/open/floor/wood,
+/area/space)
 "Nl" = (
 /obj/machinery/door/airlock{
 	name = "Theater Backstage"
@@ -2256,14 +2353,18 @@
 	},
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"Oa" = (
+/obj/machinery/computer/order_console/cook{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Oc" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement{
-	pixel_y = 8
-	},
 /obj/structure/sign/painting/large/library{
 	dir = 1
 	},
+/obj/machinery/computer/libraryconsole/bookmanagement,
 /turf/open/floor/wood,
 /area/space)
 "Og" = (
@@ -2336,6 +2437,11 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/space)
+"OP" = (
+/obj/structure/table/wood,
+/obj/structure/window/spawner/west,
+/turf/open/floor/wood,
+/area/space)
 "OS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -2348,6 +2454,9 @@
 "OV" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Arcade"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -2375,6 +2484,15 @@
 	},
 /obj/structure/chair/stool/bar/directional/north,
 /obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/space)
+"Pk" = (
+/obj/structure/table/wood,
+/obj/machinery/fax{
+	pixel_y = 6;
+	fax_name = "Library Fax (Public)";
+	name = "Public Fax Machine"
+	},
 /turf/open/floor/wood,
 /area/space)
 "Pp" = (
@@ -2434,6 +2552,12 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/space)
+"PQ" = (
+/obj/structure/table/wood,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/turf/open/floor/wood,
+/area/space)
 "PR" = (
 /obj/effect/turf_decal/siding/white,
 /obj/machinery/disposal/bin,
@@ -2455,6 +2579,9 @@
 "Qc" = (
 /obj/machinery/door/airlock{
 	name = "Arcade Counter"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -2550,8 +2677,7 @@
 	},
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole{
-	dir = 1;
-	pixel_y = 8
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -2569,6 +2695,24 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
+/area/space)
+"SZ" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/folder/yellow{
+	pixel_y = 4
+	},
+/obj/item/pen/red,
+/turf/open/floor/wood,
+/area/space)
+"Tc" = (
+/obj/machinery/vending/wardrobe/curator_wardrobe,
+/turf/open/floor/engine/cult,
+/area/space)
+"Ti" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole,
+/turf/open/floor/wood,
 /area/space)
 "Tj" = (
 /obj/machinery/recharge_station,
@@ -2701,8 +2845,7 @@
 "Vo" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole{
-	dir = 1;
-	pixel_y = 8
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -2790,6 +2933,10 @@
 "Xm" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/iron/dark,
+/area/space)
+"Xw" = (
+/obj/machinery/photocopier,
+/turf/open/floor/wood,
 /area/space)
 "Xy" = (
 /obj/effect/turf_decal/siding/wood{
@@ -2905,6 +3052,10 @@
 "Zf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
+/area/space)
+"Zg" = (
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/wood,
 /area/space)
 "ZD" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -154232,7 +154383,7 @@ yM
 yM
 yM
 yM
-cK
+fx
 Qc
 yM
 Fp
@@ -154489,8 +154640,8 @@ zK
 es
 Cd
 pE
-Fp
-Fp
+Oo
+Oo
 yM
 Fp
 Fp
@@ -154746,8 +154897,8 @@ KG
 KG
 hg
 bk
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -155003,8 +155154,8 @@ cF
 KG
 KG
 fm
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -155260,8 +155411,8 @@ KG
 KG
 Do
 uf
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -155517,8 +155668,8 @@ zK
 es
 Cd
 pE
-Fp
-Fp
+Oo
+Oo
 yM
 Fp
 Fp
@@ -155774,8 +155925,8 @@ yM
 yM
 yM
 yM
-Fp
-Fp
+Oo
+Oo
 yM
 Fp
 Fp
@@ -156031,8 +156182,8 @@ ww
 ww
 tI
 yM
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -156288,8 +156439,8 @@ mc
 wu
 GD
 yM
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -156545,8 +156696,8 @@ Ln
 FF
 HZ
 yM
-Fp
-Fp
+Oo
+Oo
 PX
 Fp
 Fp
@@ -159627,7 +159778,7 @@ WP
 uz
 uz
 uz
-uz
+fl
 yK
 Fp
 Fp
@@ -160893,7 +161044,7 @@ yM
 JI
 yM
 ep
-Oo
+Oa
 Xm
 yM
 vh
@@ -162463,14 +162614,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+re
+re
+re
+re
+re
 Ii
 Ii
 Ii
@@ -162720,14 +162871,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+re
+re
+re
+re
+re
 Ii
 Ii
 Ii
@@ -162977,14 +163128,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+re
+re
+re
+re
+re
 Ii
 Ii
 Ii
@@ -163234,14 +163385,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+re
+re
+re
+re
+re
 Ii
 Ii
 Ii
@@ -163491,14 +163642,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+re
+re
+re
+re
+re
 Ii
 Ii
 Ii
@@ -163748,14 +163899,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+uz
+uz
+re
+re
+re
 Ii
 Ii
 Ii
@@ -163976,7 +164127,7 @@ Fp
 yM
 JI
 JI
-ZE
+sF
 OW
 OW
 OW
@@ -164005,14 +164156,14 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+re
+re
+re
+uz
+uz
+re
+re
+re
 Ii
 Ii
 Ii
@@ -164262,17 +164413,17 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+yM
+yM
+yM
+uz
+JW
+yM
+yM
+yM
+yM
+yM
+yM
 Ii
 Ii
 Ii
@@ -164519,17 +164670,17 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+dS
+re
+re
+uz
+uz
+lx
+lx
+AG
+AG
+re
+yM
 Ii
 Ii
 Ii
@@ -164776,17 +164927,17 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+ft
+re
+re
+uz
+uz
+re
+re
+re
+re
+re
+yM
 Ii
 Ii
 Ii
@@ -165033,17 +165184,17 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+db
+re
+re
+uz
+uz
+re
+re
+re
+re
+re
+yM
 Ii
 Ii
 Ii
@@ -165289,18 +165440,18 @@ mx
 Fp
 Fp
 Fp
+PX
+Ti
+dK
+re
+uz
+uz
+FC
+FC
+Zg
+Zg
+re
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
 Ii
 Ii
 Ii
@@ -165546,18 +165697,18 @@ mx
 Fp
 Fp
 Fp
+PX
+yX
+uh
+re
+uz
+uz
+mZ
+mZ
+mZ
+mZ
+re
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
 Ii
 Ii
 Ii
@@ -165803,18 +165954,18 @@ mx
 Fp
 Fp
 Fp
+pl
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
 Ii
 Ii
 Ii
@@ -166060,20 +166211,20 @@ mx
 Fp
 Fp
 Fp
+Fp
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
+uz
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+yM
+yM
 yM
 yM
 Oo
@@ -166317,20 +166468,20 @@ yM
 Fp
 Fp
 Fp
+PX
+Xw
+re
+re
+uz
+uz
+re
+PQ
+Nd
+re
+OP
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+EP
+dT
 yM
 Oo
 Oo
@@ -166574,19 +166725,19 @@ yM
 Fp
 Fp
 Fp
-yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+PX
+Pk
+SZ
+re
+uz
+uz
+re
+kR
+re
+re
+re
+Dp
+EP
 yM
 yM
 Oo
@@ -166832,18 +166983,18 @@ Fp
 Fp
 Fp
 yM
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+Ti
+dK
+re
+uz
+uz
+bM
+vn
+re
+re
+re
+yM
+Tc
 yM
 Oo
 Oo
@@ -167090,12 +167241,12 @@ Fp
 Fp
 yM
 yM
-yM
-yM
-yM
-yM
-yM
-yM
+PX
+PX
+Fp
+ej
+PX
+PX
 yM
 yM
 yM
