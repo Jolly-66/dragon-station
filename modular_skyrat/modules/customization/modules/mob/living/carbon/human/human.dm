@@ -29,20 +29,26 @@
 				tgui.holder = src
 				tgui.ui_interact(usr) //datum has a tgui component, here we open the window
 
-/mob/living/carbon/human/species/synthliz
-	race = /datum/species/robotic/synthliz
-
 /mob/living/carbon/human/species/vox
 	race = /datum/species/vox
 
 /mob/living/carbon/human/species/vox_primalis
 	race = /datum/species/vox_primalis
 
-/mob/living/carbon/human/species/ipc
-	race = /datum/species/robotic/ipc
+/mob/living/carbon/human/species/synth
+	race = /datum/species/synthetic
 
 /mob/living/carbon/human/species/mammal
 	race = /datum/species/mammal
+
+/mob/living/carbon/human/species/vulpkanin
+	race = /datum/species/vulpkanin
+
+/mob/living/carbon/human/species/tajaran
+	race = /datum/species/tajaran
+
+/mob/living/carbon/human/species/unathi
+	race = /datum/species/unathi
 
 /mob/living/carbon/human/species/podweak
 	race = /datum/species/pod/podweak
@@ -58,6 +64,12 @@
 
 /mob/living/carbon/human/species/teshari
 	race = /datum/species/teshari
+
+/mob/living/carbon/human/species/akula
+	race = /datum/species/akula
+
+/mob/living/carbon/human/species/skrell
+	race = /datum/species/skrell
 
 /mob/living/carbon/human/verb/toggle_undies()
 	set category = "IC"

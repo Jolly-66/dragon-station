@@ -193,12 +193,12 @@
 	target.animate_atom_living(firer)
 
 /atom/proc/animate_atom_living(mob/living/owner = null)
-	if((isitem(src) || isstructure(src)) && !is_type_in_list(src, GLOB.mimic_blacklist))
+	if((isitem(src) || isstructure(src)) && !is_type_in_list(src, GLOB.animatable_blacklist))
 		if(istype(src, /obj/structure/statue/petrified))
 			var/obj/structure/statue/petrified/P = src
 			if(P.petrified_mob)
 				var/mob/living/L = P.petrified_mob
-				var/mob/living/simple_animal/hostile/netherworld/statue/S = new(P.loc, owner)
+				var/mob/living/basic/statue/S = new(P.loc, owner)
 				S.name = "statue of [L.name]"
 				if(owner)
 					S.faction = list("[REF(owner)]")
@@ -595,7 +595,7 @@
 	hitsound = 'sound/weapons/punch3.ogg'
 	trigger_range = 0
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
-	ignored_factions = list("cult")
+	ignored_factions = list(FACTION_CULT)
 	range = 105
 	speed = 1
 	pixel_speed_multiplier = 1/7

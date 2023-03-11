@@ -1,8 +1,8 @@
 ///hud action for starting and stopping flight
 /datum/action/innate/flight
 	name = "Toggle Flight"
-	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_IMMOBILE
-	icon_icon = 'icons/mob/actions/actions_items.dmi'
+	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_IMMOBILE|AB_CHECK_INCAPACITATED
+	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "flight"
 
 /datum/action/innate/flight/Activate()
