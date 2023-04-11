@@ -13,7 +13,7 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 	organs_needed = 3
 	bonus_activate_text = span_notice("Gondola DNA is deeply infused with you! You are the ultimate observer, uncaring of the environment around you...")
 	bonus_deactivate_text = span_notice("Your DNA is no longer serene and gondola-like, and so you begin remembering that breathing is like, important...")
-	//bonus_traits = list(TRAIT_RESISTHEAT, TRAIT_RESISTCOLD, TRAIT_NOBREATH, TRAIT_RESISTLOWPRESSURE, TRAIT_RESISTHIGHPRESSURE) SKYRAT EDIT REMOVE ME!!!
+	bonus_traits = list(TRAIT_RESISTHEAT, TRAIT_RESISTCOLD, TRAIT_NOBREATH, TRAIT_RESISTLOWPRESSURE, TRAIT_RESISTHIGHPRESSURE)
 
 /// makes you a pacifist and turns most mobs neutral towards you
 /obj/item/organ/internal/heart/gondola
@@ -24,14 +24,14 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 	icon_state = "heart"
 	greyscale_config = /datum/greyscale_config/mutant_organ
 	greyscale_colors = GONDOLA_COLORS
-	organ_traits = TRAIT_PACIFISM
+	organ_traits = list(TRAIT_PACIFISM)
 	///keeps track of whether the reciever actually gained factions
 	var/list/factions_to_remove = list()
 
 /obj/item/organ/internal/heart/gondola/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/organ_set_bonus, /datum/status_effect/organ_set_bonus/gondola)
-	AddElement(/datum/element/noticable_organ, "radiates an aura of serenity.")
+	AddElement(/datum/element/noticable_organ, "radiate%PRONOUN_S an aura of serenity.")
 
 /obj/item/organ/internal/heart/gondola/Insert(mob/living/carbon/receiver, special, drop_if_replaced)
 	. = ..()
@@ -56,7 +56,7 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 	icon_state = "tongue"
 	greyscale_config = /datum/greyscale_config/mutant_organ
 	greyscale_colors = GONDOLA_COLORS
-	organ_traits = TRAIT_MUTE
+	organ_traits = list(TRAIT_MUTE)
 
 /obj/item/organ/internal/tongue/gondola/Initialize(mapload)
 	. = ..()
