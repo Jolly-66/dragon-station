@@ -748,9 +748,7 @@
 /obj/structure/closet/crate/secure/loot,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/tile/brown/full,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered/skyrat/scrapheap)
@@ -922,7 +920,8 @@
 	},
 /area/ruin/space/has_grav/powered/skyrat/scrapheap)
 "yR" = (
-/obj/effect/spawner/structure/window/reinforced/damaged,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/skyrat/scrapheap)
 "zo" = (
@@ -1233,9 +1232,7 @@
 "Gd" = (
 /obj/structure/closet/crate/secure/loot,
 /obj/effect/turf_decal/bot_red,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/tile/brown/full,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered/skyrat/scrapheap)
