@@ -178,7 +178,7 @@
 /turf/open/floor/plating,
 /area/space)
 "bl" = (
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/iron/dark,
 /area/space)
@@ -679,7 +679,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -998,7 +998,7 @@
 /area/space)
 "gK" = (
 /obj/structure/urinal/directional/south,
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/plastic,
 /area/space)
 "gL" = (
@@ -1712,7 +1712,7 @@
 /area/space)
 "me" = (
 /obj/structure/chair/sofa/middle,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/wood/large,
 /area/space)
 "mf" = (
@@ -2136,7 +2136,7 @@
 /area/space)
 "oU" = (
 /obj/machinery/hydroponics/constructable,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/effect/turf_decal/bot_blue,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
@@ -2191,8 +2191,9 @@
 /turf/open/floor/iron,
 /area/space)
 "pm" = (
-/obj/machinery/door/poddoor/lift{
-	id = "medbayElevator"
+/obj/machinery/door/window/elevator/left/directional/east{
+	elevator_mode = 1;
+	elevator_linked_id = "medbayElevator"
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -2220,7 +2221,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/wood,
 /area/space)
 "pt" = (
@@ -2354,7 +2355,7 @@
 /area/space)
 "qr" = (
 /obj/structure/table,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/structure/window/spawner,
 /obj/item/storage/box/syringes{
 	pixel_y = 8;
@@ -2745,7 +2746,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/wood,
 /area/space)
 "sX" = (
@@ -3059,7 +3060,7 @@
 "vn" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole/bookmanagement,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/wood,
 /area/space)
 "vs" = (
@@ -3260,7 +3261,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 8
 	},
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
@@ -3278,7 +3279,7 @@
 /area/space)
 "wF" = (
 /obj/structure/table/wood/fancy/red,
-/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/sign/painting/library_secure{
 	pixel_x = -32
 	},
@@ -3312,9 +3313,9 @@
 	},
 /obj/machinery/requests_console/directional/north{
 	department = "Virology";
-	name = "Virology Requests Console";
-	receive_ore_updates = 1
+	name = "Virology Requests Console"
 	},
+/obj/effect/mapping_helpers/requests_console/ore_update,
 /turf/open/floor/iron/dark,
 /area/space)
 "wS" = (
@@ -3347,11 +3348,11 @@
 "xd" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/delivery/blue,
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
 "xe" = (
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
@@ -3362,7 +3363,7 @@
 /area/space)
 "xg" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/wood/large,
 /area/space)
 "xi" = (
@@ -3428,7 +3429,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 8
 	},
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/wood,
 /area/space)
 "xA" = (
@@ -3531,7 +3532,7 @@
 /area/space)
 "yn" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/effect/turf_decal/delivery/blue,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
@@ -3594,7 +3595,7 @@
 /turf/open/floor/iron/white,
 /area/space)
 "yH" = (
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron,
 /area/space)
 "yI" = (
@@ -3873,10 +3874,10 @@
 /obj/machinery/requests_console/directional/north{
 	department = "Chief Medical Officer's Desk";
 	name = "Chief Medical Officer's Requests Console";
-	announcementConsole = 1;
-	anon_tips_receiver = 1;
-	assistance_requestable = 1
+	can_send_announcements = 1
 	},
+/obj/effect/mapping_helpers/requests_console/information,
+/obj/effect/mapping_helpers/requests_console/assistance,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
@@ -3901,7 +3902,7 @@
 /area/space)
 "AU" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -4093,12 +4094,12 @@
 	},
 /obj/item/pen,
 /obj/machinery/requests_console/directional/north{
-	anon_tips_receiver = 1;
-	assistance_requestable = 1;
 	department = "Security";
 	departmentType = 5;
 	name = "Security Requests Console"
 	},
+/obj/effect/mapping_helpers/requests_console/information,
+/obj/effect/mapping_helpers/requests_console/assistance,
 /turf/open/floor/iron/dark,
 /area/space)
 "BV" = (
@@ -4243,7 +4244,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/wood,
 /area/space)
 "De" = (
@@ -4505,10 +4506,6 @@
 /area/space)
 "EA" = (
 /obj/effect/spawner/random/structure/musician/piano/random_piano,
-/obj/item/clothing/head/fedora/fedblack{
-	pixel_y = 4;
-	pixel_x = 6
-	},
 /obj/item/cane{
 	pixel_y = 6;
 	pixel_x = -3
@@ -4625,7 +4622,7 @@
 /area/space)
 "Fr" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/machinery/door/window/right/directional/north{
 	req_access = list("medical");
 	name = list("medical")
@@ -5069,7 +5066,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "Ia" = (
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
@@ -5690,7 +5687,7 @@
 	pixel_y = 5;
 	pixel_x = 5
 	},
-/obj/item/stamp/cmo{
+/obj/item/stamp/head/cmo{
 	pixel_y = 6;
 	pixel_x = 6
 	},
@@ -5707,7 +5704,7 @@
 /turf/open/misc/dirt,
 /area/space)
 "Nd" = (
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/machinery/libraryscanner,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -5976,7 +5973,7 @@
 /area/space)
 "OP" = (
 /obj/structure/table/wood,
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -5998,7 +5995,7 @@
 "OS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /obj/machinery/door/window/right/directional/west{
 	name = "Hydroponics Desk"
 	},
@@ -6024,7 +6021,7 @@
 /area/space)
 "Pe" = (
 /obj/structure/chair/sofa/left,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/wood/large,
 /area/space)
 "Ph" = (
@@ -6144,7 +6141,7 @@
 /turf/open/floor/plastic,
 /area/space)
 "PJ" = (
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
@@ -6161,8 +6158,8 @@
 /area/space)
 "PQ" = (
 /obj/structure/table/wood,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/north,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -6242,8 +6239,8 @@
 	pixel_y = 4
 	},
 /obj/item/pen,
-/obj/structure/window/spawner/west,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/west,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/wood/large,
 /area/space)
 "Qv" = (
@@ -6304,7 +6301,7 @@
 /area/space)
 "QV" = (
 /obj/structure/chair/sofa/right,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/wood/large,
 /area/space)
 "QW" = (
@@ -6392,7 +6389,7 @@
 /turf/open/floor/iron/white,
 /area/space)
 "RO" = (
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/structure/table,
 /obj/item/storage/crayons,
 /turf/open/floor/iron,
@@ -6681,7 +6678,7 @@
 /area/space)
 "TU" = (
 /obj/structure/table/wood,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/structure/window/spawner,
 /turf/open/floor/carpet,
 /area/space)
@@ -6915,7 +6912,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 8
 	},
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -6998,7 +6995,7 @@
 /area/space)
 "Wg" = (
 /obj/structure/closet/secure_closet/chemical,
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/turf_decal/tile/yellow/opposingcorners{
 	dir = 8
 	},
@@ -7187,7 +7184,7 @@
 	},
 /obj/effect/spawner/random/trash/soap,
 /obj/item/reagent_containers/cup/rag,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "XE" = (
@@ -7467,7 +7464,7 @@
 /turf/open/floor/iron/white,
 /area/space)
 "ZA" = (
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -7533,7 +7530,7 @@
 /obj/item/folder/yellow{
 	pixel_y = 5
 	},
-/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/directional/west,
 /obj/structure/window/spawner,
 /turf/open/floor/carpet,
 /area/space)
