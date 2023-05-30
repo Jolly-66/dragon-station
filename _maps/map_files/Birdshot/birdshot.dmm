@@ -1409,6 +1409,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
+"aHH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/xenobiology)
 "aHJ" = (
 /obj/structure/window/spawner/directional/north,
 /obj/machinery/hydroponics/soil,
@@ -2887,6 +2892,7 @@
 /obj/item/lighter{
 	pixel_x = 15
 	},
+/obj/item/clothing/mask/breath/medical,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/augments)
 "boY" = (
@@ -19209,6 +19215,7 @@
 "hnP" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/status_display/evac/directional/south,
+/obj/structure/tank_holder/anesthetic,
 /turf/open/floor/iron,
 /area/station/science/robotics/augments)
 "hnV" = (
@@ -26453,6 +26460,8 @@
 /area/station/maintenance/hallway/abandoned_command)
 "jPm" = (
 /obj/machinery/light/small/directional/east,
+/obj/machinery/light_switch/directional/east,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/smooth,
 /area/station/cargo/warehouse)
 "jPq" = (
@@ -71604,7 +71613,7 @@
 "ykY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/east,
-/obj/item/kirbyplants/dead,
+/obj/item/kirbyplants/dead/research_director,
 /turf/open/floor/iron/dark/small,
 /area/station/command/heads_quarters/rd)
 "ykZ" = (
@@ -108825,8 +108834,8 @@ ssz
 ssz
 xQI
 qRO
-xGw
-xGw
+aHH
+aHH
 yiV
 rUR
 qTv

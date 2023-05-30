@@ -7121,8 +7121,8 @@
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "cJv" = (
-/obj/machinery/chem_heater/withbuffer,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
+/obj/machinery/chem_heater/withbuffer,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "cJx" = (
@@ -7572,6 +7572,7 @@
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "cSv" = (
@@ -15582,9 +15583,9 @@
 	name = "Hydroponics Delivery";
 	req_access = list("hydroponics")
 	},
+/obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
@@ -21772,8 +21773,8 @@
 	name = "Kentucky";
 	real_name = "Kentucky"
 	},
-/obj/structure/window/spawner/directional/south,
 /obj/structure/window/spawner/directional/west,
+/obj/structure/window/spawner/directional/south,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden)
 "ich" = (
@@ -28741,9 +28742,7 @@
 /turf/open/floor/plating,
 /area/station/commons/storage/tools)
 "ksl" = (
-/obj/machinery/chem_heater/withbuffer{
-	pixel_x = 4
-	},
+/obj/machinery/chem_heater/withbuffer,
 /obj/machinery/light/directional/south,
 /obj/machinery/button/door/directional/south{
 	id = "pharmacy_shutters_2";
@@ -35904,6 +35903,7 @@
 "mXE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/directional/east,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "mXK" = (
@@ -40162,6 +40162,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/window/spawner/directional/west,
 /obj/structure/window/spawner/directional/north,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "oxT" = (
@@ -43051,7 +43053,7 @@
 /obj/effect/turf_decal/siding{
 	dir = 4
 	},
-/obj/item/kirbyplants/dead,
+/obj/item/kirbyplants/dead/research_director,
 /obj/effect/turf_decal/tile/neutral/opposingcorners{
 	dir = 1
 	},
@@ -51073,6 +51075,7 @@
 "stw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/watertank,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "stC" = (

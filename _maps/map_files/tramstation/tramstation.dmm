@@ -7555,6 +7555,11 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/iron/grimy,
 /area/station/commons/vacant_room)
+"bhI" = (
+/obj/machinery/light/small/directional/east,
+/obj/machinery/drone_dispenser,
+/turf/open/floor/iron/smooth,
+/area/station/maintenance/department/science)
 "bia" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/modular_computer/console/preset/engineering{
@@ -17551,6 +17556,7 @@
 /obj/item/scalpel{
 	pixel_y = 11
 	},
+/obj/item/clothing/mask/breath/medical,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "eRb" = (
@@ -20710,6 +20716,11 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/science/auxlab/firing_range)
+"gcz" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/open/space/openspace,
+/area/space/nearstation)
 "gcE" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 5
@@ -21144,6 +21155,9 @@
 	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
+	},
+/obj/machinery/light_switch/directional/north{
+	pixel_x = 10
 	},
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
@@ -31208,6 +31222,7 @@
 /area/station/medical/chemistry)
 "jZa" = (
 /obj/machinery/light/small/directional/west,
+/obj/structure/tank_holder/anesthetic,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "jZb" = (
@@ -32423,7 +32438,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/tram/mid)
 "kxF" = (
-/obj/item/kirbyplants/dead,
+/obj/item/kirbyplants/dead/research_director,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -50879,6 +50894,9 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai_upload)
+"reH" = (
+/turf/open/floor/iron/smooth,
+/area/station/maintenance/department/science)
 "reU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/directional/south{
@@ -52510,6 +52528,11 @@
 /obj/structure/sign/warning/hot_temp/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
+"rLI" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/open/space/basic,
+/area/space/nearstation)
 "rLP" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 8
@@ -53360,12 +53383,9 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
 "scp" = (
-/obj/machinery/mineral/stacking_machine{
-	input_dir = 8;
-	output_dir = 2
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/fourcorners,
+/obj/machinery/mineral/stacking_machine,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/disposal)
 "scw" = (
@@ -58433,6 +58453,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "tNW" = (
@@ -67659,7 +67680,7 @@
 /turf/open/floor/iron,
 /area/station/security/processing)
 "xbH" = (
-/obj/machinery/chem_heater,
+/obj/machinery/chem_heater/withbuffer,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
@@ -140430,7 +140451,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -140450,7 +140471,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -140687,7 +140708,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -140707,7 +140728,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -140944,7 +140965,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+pHM
 jhd
 jhd
 jhd
@@ -141458,7 +141479,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -141478,7 +141499,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -141715,7 +141736,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -141735,7 +141756,7 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -141973,6 +141994,10 @@ jhd
 jhd
 jhd
 avE
+avE
+rLI
+rLI
+gcz
 jhd
 jhd
 jhd
@@ -141984,14 +142009,10 @@ jhd
 jhd
 jhd
 jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
+rLI
+rLI
+avE
 avE
 jhd
 jhd
@@ -142229,27 +142250,27 @@ jhd
 jhd
 jhd
 jhd
-avE
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
 jhd
 jhd
 jhd
 avE
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+avE
+jhd
+jhd
+jhd
+gcz
 jhd
 jhd
 jhd
@@ -142486,7 +142507,11 @@ jhd
 jhd
 jhd
 jhd
-avE
+rLI
+jhd
+jhd
+jhd
+gcz
 jhd
 jhd
 jhd
@@ -142498,15 +142523,11 @@ jhd
 jhd
 jhd
 jhd
+gcz
 jhd
 jhd
 jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-avE
+rLI
 jhd
 jhd
 jhd
@@ -142743,23 +142764,7 @@ jhd
 jhd
 jhd
 jhd
-avE
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -142775,7 +142780,23 @@ jhd
 jhd
 jhd
 jhd
+avE
 jhd
+jhd
+jhd
+gcz
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+rLI
+rLI
+rLI
+rLI
 jhd
 jhd
 jhd
@@ -143001,6 +143022,11 @@ jhd
 jhd
 jhd
 avE
+pHM
+rLI
+rLI
+rLI
+gcz
 jhd
 jhd
 jhd
@@ -143010,16 +143036,11 @@ jhd
 jhd
 jhd
 jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
+rLI
+rLI
+rLI
+pHM
 avE
 jhd
 jhd
@@ -143031,7 +143052,7 @@ jhd
 jhd
 jhd
 jhd
-jhd
+avE
 jhd
 jhd
 jhd
@@ -143257,7 +143278,12 @@ jhd
 jhd
 jhd
 jhd
-avE
+gcz
+jhd
+jhd
+jhd
+jhd
+rLI
 jhd
 jhd
 jhd
@@ -143267,6 +143293,12 @@ jhd
 jhd
 jhd
 jhd
+rLI
+jhd
+jhd
+jhd
+jhd
+gcz
 jhd
 jhd
 jhd
@@ -143274,23 +143306,12 @@ jhd
 jhd
 jhd
 jhd
-jhd
-jhd
-jhd
-avE
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
+rLI
+rLI
+pHM
+rLI
+rLI
 jhd
 jhd
 jhd
@@ -143514,22 +143535,7 @@ jhd
 jhd
 jhd
 jhd
-avE
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -143544,10 +143550,25 @@ jhd
 jhd
 jhd
 jhd
+avE
 jhd
 jhd
 jhd
 jhd
+gcz
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+jhd
+avE
+jhd
+jhd
+jhd
+jhd
+avE
 jhd
 jhd
 jhd
@@ -143776,6 +143797,7 @@ tPE
 tPE
 tPE
 tPE
+avE
 jhd
 jhd
 jhd
@@ -143785,8 +143807,7 @@ jhd
 jhd
 jhd
 jhd
-jhd
-jhd
+avE
 tPE
 tPE
 tPE
@@ -143799,12 +143820,12 @@ jhd
 jhd
 jhd
 jhd
-jhd
+avE
 tPE
 tPE
 tPE
 tPE
-jhd
+avE
 jhd
 jhd
 jhd
@@ -144023,12 +144044,12 @@ jhd
 jhd
 jhd
 jhd
-jhd
-jhd
-jhd
-jhd
-jhd
-jhd
+gcz
+gcz
+gcz
+gcz
+gcz
+avE
 tPE
 qnv
 tld
@@ -144056,7 +144077,7 @@ jhd
 jhd
 jhd
 jhd
-jhd
+avE
 nmY
 vpC
 bix
@@ -144280,7 +144301,7 @@ jhd
 jhd
 jhd
 jhd
-jhd
+avE
 jhd
 jhd
 jhd
@@ -144537,7 +144558,7 @@ jhd
 jhd
 jhd
 jhd
-jhd
+avE
 jhd
 jhd
 jhd
@@ -151797,8 +151818,8 @@ jFJ
 aaa
 aaa
 aac
-jhd
-jhd
+gcz
+gcz
 jhd
 jhd
 jhd
@@ -152055,7 +152076,7 @@ jFJ
 aaa
 jhd
 jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -152312,7 +152333,7 @@ jFJ
 jhd
 jhd
 jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -152566,10 +152587,10 @@ jFJ
 aHp
 kNC
 jFJ
-jhd
-jhd
-jhd
-jhd
+avE
+avE
+avE
+avE
 jhd
 jhd
 jhd
@@ -152826,7 +152847,7 @@ jFJ
 jhd
 jhd
 jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -153080,10 +153101,10 @@ jYe
 gnr
 bIJ
 jFJ
-jhd
-jhd
-jhd
-jhd
+avE
+avE
+avE
+avE
 jhd
 jhd
 jhd
@@ -153340,7 +153361,7 @@ jFJ
 jhd
 jhd
 jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -153597,7 +153618,7 @@ buB
 buB
 jhd
 jhd
-jhd
+gcz
 jhd
 jhd
 jhd
@@ -153854,8 +153875,8 @@ kkg
 buB
 jhd
 jhd
-jhd
-jhd
+gcz
+gcz
 jhd
 jhd
 jhd
@@ -177731,9 +177752,9 @@ hwM
 dzu
 kcF
 soq
-abM
-abM
-abM
+bhI
+reH
+reH
 abM
 abM
 abM
