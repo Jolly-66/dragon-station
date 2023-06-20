@@ -574,6 +574,10 @@
 /obj/item/pillow/random,
 /turf/open/floor/carpet,
 /area/space)
+"hg" = (
+/obj/machinery/suit_storage_unit/medical,
+/turf/open/floor/iron/white,
+/area/space)
 "hl" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/dice,
@@ -1102,6 +1106,12 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"mL" = (
+/obj/machinery/vending/medical{
+	pixel_x = -2
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "mM" = (
 /obj/machinery/duct,
 /turf/open/floor/iron/dark,
@@ -1380,6 +1390,10 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"pH" = (
+/obj/machinery/rnd/production/techfab/department/medical,
+/turf/open/floor/iron/white,
+/area/space)
 "pI" = (
 /turf/open/floor/iron/stairs/medium,
 /area/space)
@@ -1573,6 +1587,12 @@
 	},
 /obj/item/bikehorn/rubberducky,
 /turf/open/floor/iron/freezer,
+/area/space)
+"ro" = (
+/obj/structure/closet/secure_closet/medical3,
+/obj/structure/window/spawner/directional/north,
+/obj/structure/window/spawner/directional/west,
+/turf/open/floor/iron/dark,
 /area/space)
 "rp" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -2366,6 +2386,14 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"AA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/right/directional/east{
+	name = "Aux Medical Supplies";
+	req_access = list("medical")
+	},
+/turf/open/floor/iron/white,
+/area/space)
 "AK" = (
 /obj/effect/turf_decal/tile/dark_green/opposingcorners,
 /obj/effect/turf_decal/siding/wood,
@@ -2424,6 +2452,26 @@
 	dir = 5
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"Bj" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/right/directional/west{
+	name = "First-Aid Supplies";
+	req_access = list("medical")
+	},
+/obj/item/storage/medkit/o2,
+/obj/item/storage/medkit/o2{
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/o2{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Bk" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/iron/white,
 /area/space)
 "Bo" = (
 /obj/structure/table,
@@ -2861,7 +2909,16 @@
 /turf/open/floor/iron,
 /area/space)
 "Fq" = (
-/turf/open/space/basic,
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/item/storage/medkit/brute,
+/obj/item/storage/medkit/brute{
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Fu" = (
 /obj/effect/turf_decal/siding/wood,
@@ -2911,7 +2968,8 @@
 	},
 /obj/machinery/button/door/directional/west{
 	name = "Chemistry Access Shutters Control";
-	id = "chem-shut"
+	id = "chem-shut";
+	req_access = list("chemistry")
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -2930,6 +2988,11 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/space)
+"Gm" = (
+/obj/structure/window/spawner/directional/west,
+/obj/structure/closet/secure_closet/medical3,
+/turf/open/floor/iron/dark,
 /area/space)
 "Go" = (
 /obj/structure/railing{
@@ -3165,6 +3228,14 @@
 /obj/structure/flora/bush/jungle/b/style_random,
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"Jp" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/east{
+	req_access = list("medical");
+	name = "Aux Medical Supplies"
+	},
+/turf/open/floor/iron/white,
+/area/space)
 "Jv" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/structure/closet/secure_closet/freezer/meat,
@@ -3333,6 +3404,21 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/space)
+"LK" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/west{
+	name = "First-Aid Supplies";
+	req_access = list("medical")
+	},
+/obj/item/storage/medkit/toxin,
+/obj/item/storage/medkit/toxin{
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "LL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -3377,6 +3463,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/checker,
+/area/space)
+"Mf" = (
+/obj/machinery/vending/wardrobe/medi_wardrobe,
+/turf/open/floor/iron/dark,
 /area/space)
 "Ml" = (
 /obj/machinery/disposal/bin,
@@ -4091,6 +4181,10 @@
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
+"TL" = (
+/obj/structure/closet/l3closet,
+/turf/open/floor/iron/dark,
+/area/space)
 "TQ" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
@@ -4100,6 +4194,18 @@
 "Ua" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
+/turf/open/floor/iron/dark,
+/area/space)
+"Uh" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/regular{
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/regular{
+	pixel_y = 8
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "Un" = (
@@ -4170,6 +4276,19 @@
 "UG" = (
 /obj/structure/flora/tree/jungle/style_5,
 /turf/open/misc/grass/jungle/planet,
+/area/space)
+"UM" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/fire{
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "UO" = (
 /turf/open/floor/carpet/lone,
@@ -92577,11 +92696,11 @@ CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
+yM
+yM
+yM
+yM
+yM
 CI
 CI
 CI
@@ -92832,15 +92951,15 @@ CO
 CO
 CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+yM
+yM
+yM
+Jp
+Bk
+AA
+yM
+yM
+yM
 CI
 CI
 CI
@@ -93089,15 +93208,15 @@ yM
 CI
 CI
 CI
-Fq
-Fq
-Fq
-Fq
-Fq
-Fq
 yM
-JI
-CI
+PW
+PW
+PW
+PW
+PW
+PW
+pH
+yM
 CI
 CI
 CI
@@ -93346,15 +93465,15 @@ yM
 CI
 CI
 CI
-Fq
-Fq
-Fq
-Fq
-Fq
-Fq
-yS
-TG
-TG
+yM
+PW
+PW
+PW
+PW
+PW
+PW
+hg
+yM
 CI
 CI
 CI
@@ -93603,15 +93722,15 @@ yM
 yM
 yM
 yM
-Oo
-PW
-PW
-Fq
-Fq
-Fq
 yM
-JI
-TG
+PW
+PW
+TL
+ro
+Gm
+Gm
+Gm
+yM
 CI
 CI
 CI
@@ -93860,15 +93979,15 @@ jk
 jk
 bP
 yM
+Mf
+PW
+PW
 Oo
-PW
-PW
-Fq
-Fq
-Fq
+Oo
+Oo
+Oo
+Oo
 yM
-rI
-TG
 CI
 CI
 CI
@@ -94117,16 +94236,16 @@ Qp
 Qp
 bP
 yM
+mL
+PW
+PW
 Oo
-PW
-PW
-Fq
-Fq
-Fq
+Oo
+Oo
+Oo
+Oo
 yM
-rI
-TG
-TG
+JI
 CI
 CI
 CI
@@ -94374,16 +94493,16 @@ Uo
 Uo
 bP
 yM
-Oo
+ep
 PW
 PW
+UM
+Bj
 Fq
-Fq
-Fq
+LK
+Uh
 yM
-yM
-yM
-yS
+JI
 yM
 CI
 CI
@@ -94634,12 +94753,12 @@ yM
 yM
 qg
 VN
-PX
-PX
-PX
+Zf
+Zf
+Zf
 yM
-PW
-PW
+yM
+yM
 oa
 yM
 CI
