@@ -16,10 +16,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/airless,
 /area/ruin/space)
-"am" = (
-/obj/structure/sign/poster/contraband/random/directional/east,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/space)
 "aB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
@@ -171,8 +167,6 @@
 /turf/open/floor/mineral/plastitanium/airless,
 /area/ruin/space)
 "fl" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/blood,
 /turf/open/floor/iron/dark/smooth_large/airless,
 /area/ruin/space)
 "fO" = (
@@ -205,11 +199,6 @@
 /area/ruin/space)
 "gN" = (
 /turf/open/floor/mineral/plastitanium/red/airless,
-/area/ruin/space)
-"gR" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/mapping_helpers/broken_floor,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space)
 "hl" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -440,13 +429,7 @@
 /turf/open/floor/iron/dark/textured/airless,
 /area/ruin/space)
 "qn" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/official/moth_meth,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/space)
-"qA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/soviet_propaganda,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space)
 "qL" = (
@@ -801,7 +784,6 @@
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space)
 "FP" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/interdyne_gene_clinics,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space)
@@ -886,10 +868,6 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid/basalt/airless,
-/area/ruin/space)
-"Jb" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space)
 "Jh" = (
 /obj/structure/cable,
@@ -999,11 +977,6 @@
 	},
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space)
-"Mp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/space)
 "Nc" = (
 /obj/item/ammo_casing/a357/spent{
 	dir = 8;
@@ -1034,12 +1007,6 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid/basalt/airless,
-/area/ruin/space)
-"Pb" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/blood,
-/obj/effect/decal/cleanable/blood,
-/turf/closed/wall/mineral/titanium,
 /area/ruin/space)
 "Pk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1214,10 +1181,6 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/misc/asteroid/basalt/airless,
-/area/ruin/space)
-"VS" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/mineral/asteroid,
 /area/ruin/space)
 "VX" = (
 /obj/structure/sign/poster/contraband/bountyhunters,
@@ -1618,7 +1581,7 @@ Er
 Er
 Er
 Er
-Jb
+ED
 ED
 Er
 Er
@@ -1656,7 +1619,7 @@ PI
 JV
 hJ
 Yy
-Jb
+ED
 ED
 Er
 ed
@@ -1687,14 +1650,14 @@ kR
 xt
 oU
 ED
-zx
-gR
+ED
+ED
 sN
 Lj
 FB
 WE
 og
-qA
+xT
 Er
 ed
 bz
@@ -1767,8 +1730,8 @@ UM
 gq
 ED
 qn
-Jb
-Jb
+ED
+ED
 Er
 ed
 bz
@@ -1788,7 +1751,7 @@ Er
 Er
 ED
 ED
-Jb
+ED
 nm
 kj
 aL
@@ -1823,7 +1786,7 @@ Er
 Er
 Er
 Er
-Mp
+ED
 cp
 xm
 ZC
@@ -1858,7 +1821,7 @@ bz
 ed
 Er
 Er
-VS
+Er
 yi
 aB
 Px
@@ -1895,7 +1858,7 @@ bz
 ed
 ed
 Er
-VS
+Er
 ZF
 vD
 CN
@@ -1936,7 +1899,7 @@ ED
 px
 NF
 UR
-Jb
+ED
 Jh
 wY
 zi
@@ -1973,7 +1936,7 @@ ED
 FP
 HI
 lm
-Jb
+ED
 rj
 ZC
 ZO
@@ -2046,7 +2009,7 @@ ed
 Er
 ED
 ED
-Jb
+ED
 ED
 qL
 CT
@@ -2215,7 +2178,7 @@ ZO
 Ef
 Ef
 GX
-Pb
+eA
 Er
 ed
 bz
@@ -2239,7 +2202,7 @@ ED
 mG
 Rt
 ED
-zx
+ED
 ZZ
 Tp
 ds
@@ -2430,7 +2393,7 @@ ed
 ed
 Er
 ED
-am
+ED
 ED
 Er
 ed

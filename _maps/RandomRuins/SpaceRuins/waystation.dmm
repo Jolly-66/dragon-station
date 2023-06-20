@@ -1014,11 +1014,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
-"qs" = (
-/obj/effect/turf_decal/delivery,
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall,
-/area/ruin/space/has_grav/waystation/cargooffice)
 "qy" = (
 /obj/structure/broken_flooring/pile/directional/east,
 /turf/template_noop,
@@ -2135,7 +2130,7 @@
 	name = "Loading Doors";
 	pixel_y = 6
 	},
-/obj/machinery/modular_computer/console/preset{
+/obj/machinery/modular_computer/preset{
 	dir = 8
 	},
 /turf/open/floor/iron,
@@ -4795,7 +4790,7 @@ Kc
 lP
 Ld
 ea
-qs
+UG
 LK
 Ze
 VE
