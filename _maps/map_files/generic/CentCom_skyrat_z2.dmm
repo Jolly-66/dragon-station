@@ -5019,12 +5019,6 @@
 "cGG" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/interlink)
-"cHa" = (
-/obj/machinery/modular_computer/console/preset/command,
-/obj/effect/turf_decal/tile/green/opposingcorners,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "cHY" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -6664,9 +6658,7 @@
 /turf/closed/indestructible/weeb,
 /area/centcom/holding/cafedorms)
 "hjy" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /obj/effect/turf_decal/trimline/dark_green/line,
 /turf/open/floor/iron/dark,
 /area/centcom/interlink)
@@ -7077,6 +7069,12 @@
 /obj/item/clothing/suit/armor/vest,
 /turf/open/floor/iron/dark/textured_large,
 /area/cruiser_dock)
+"ijv" = (
+/obj/machinery/modular_computer/preset/command,
+/obj/effect/turf_decal/tile/green/opposingcorners,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron,
+/area/centcom/interlink)
 "ikG" = (
 /obj/structure/table,
 /obj/machinery/computer/libraryconsole,
@@ -7304,9 +7302,7 @@
 /turf/open/floor/iron,
 /area/centcom/holding/cafe)
 "iQP" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /obj/effect/turf_decal/trimline/dark_green/line{
 	dir = 1
 	},
@@ -7700,10 +7696,6 @@
 /obj/structure/bed,
 /turf/open/floor/iron,
 /area/centcom/interlink)
-"jKv" = (
-/obj/item/toy/plush/bubbleplush,
-/turf/open/lava/fake,
-/area/centcom/holding/cafepark)
 "jNs" = (
 /obj/effect/turf_decal/loading_area/white{
 	dir = 4
@@ -8173,6 +8165,16 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
 /area/centcom/interlink)
+"kZQ" = (
+/obj/machinery/modular_computer/preset/command{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/green/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/centcom/interlink)
 "lba" = (
 /obj/machinery/computer/records/medical{
 	dir = 8
@@ -8570,9 +8572,7 @@
 /turf/open/floor/iron/white,
 /area/centcom/interlink)
 "mcO" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /obj/machinery/light/warm/directional/north,
 /obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron,
@@ -8676,9 +8676,7 @@
 /turf/open/floor/iron,
 /area/centcom/interlink)
 "moG" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /turf/open/floor/iron/dark,
 /area/centcom/interlink)
 "mpl" = (
@@ -10923,9 +10921,7 @@
 /turf/open/misc/beach/sand,
 /area/centcom/holding/cafepark)
 "rPJ" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /turf/open/floor/iron/smooth,
 /area/centcom/interlink)
 "rQF" = (
@@ -11421,9 +11417,7 @@
 /turf/open/floor/carpet/blue,
 /area/centcom/holding/cafedorms)
 "sZV" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /obj/machinery/light/warm/directional/south,
 /obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron,
@@ -11941,9 +11935,7 @@
 /turf/open/misc/dirt/planet,
 /area/centcom/interlink)
 "ujZ" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /obj/effect/turf_decal/tile/green/opposingcorners,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -12269,9 +12261,7 @@
 /area/centcom/interlink)
 "vdv" = (
 /obj/machinery/light/directional/west,
-/obj/item/kirbyplants{
-	icon_state = "plant-22"
-	},
+/obj/item/kirbyplants/organic/plant22,
 /turf/open/floor/iron/dark,
 /area/centcom/interlink)
 "veh" = (
@@ -12936,16 +12926,6 @@
 /obj/machinery/iv_drip,
 /turf/open/floor/iron/white,
 /area/centcom/holding/cafe)
-"wVp" = (
-/obj/machinery/modular_computer/console/preset/command{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green/opposingcorners,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "wXe" = (
 /obj/structure/bookcase/random/adult,
 /obj/effect/turf_decal/siding/wood{
@@ -13323,6 +13303,10 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/centcom/holding/cafe)
+"xWg" = (
+/obj/item/toy/plush/bubbleplush,
+/turf/open/misc/dirt/planet,
+/area/centcom/holding/cafepark)
 "xXc" = (
 /obj/effect/light_emitter/interlink,
 /obj/structure/fence,
@@ -22569,7 +22553,7 @@ pVh
 mpl
 kiU
 aQY
-wVp
+kZQ
 tvw
 vdv
 cuM
@@ -23069,7 +23053,7 @@ tvw
 sNg
 fMM
 tvw
-cHa
+ijv
 aQY
 vgs
 cMh
@@ -71131,7 +71115,7 @@ aiA
 aiA
 aiA
 aiA
-jKv
+xWg
 aPf
 aPf
 pNf
@@ -71387,8 +71371,8 @@ aiA
 aiA
 aiA
 aPf
-aiA
-aiA
+ayI
+ayI
 aPf
 aPf
 aFP
