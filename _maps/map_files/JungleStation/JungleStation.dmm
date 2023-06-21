@@ -1762,7 +1762,7 @@
 /turf/open/floor/iron/white,
 /area/space)
 "sy" = (
-/obj/machinery/modular_computer/console/preset/id{
+/obj/machinery/modular_computer/preset/id{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -2720,7 +2720,7 @@
 /turf/open/misc/grass/jungle/planet,
 /area/space)
 "CA" = (
-/obj/machinery/modular_computer/console/preset/id{
+/obj/machinery/modular_computer/preset/id{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
@@ -3976,7 +3976,7 @@
 /turf/open/floor/iron/freezer,
 /area/space)
 "QK" = (
-/obj/machinery/modular_computer/console/preset/cargochat/service{
+/obj/machinery/modular_computer/preset/cargochat/service{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
