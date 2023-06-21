@@ -12,6 +12,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"ae" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/turf/open/floor/iron/white,
+/area/space)
 "af" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/clothing/costume,
@@ -47,6 +54,13 @@
 /obj/item/lighter,
 /obj/item/book/manual/chef_recipes,
 /turf/open/floor/iron/kitchen,
+/area/space)
+"aF" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/white,
 /area/space)
 "aI" = (
 /obj/structure/chair/stool/bar/directional/north,
@@ -544,6 +558,9 @@
 /obj/machinery/door/airlock/medical{
 	name = "Recovery Room 2"
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "ep" = (
@@ -553,6 +570,10 @@
 "ey" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/grass/jungle/planet,
+/area/space)
+"eB" = (
+/obj/effect/turf_decal/siding/white/corner,
+/turf/open/floor/iron/dark,
 /area/space)
 "eD" = (
 /obj/structure/table,
@@ -646,6 +667,9 @@
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /obj/machinery/iv_drip,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "fE" = (
@@ -843,6 +867,9 @@
 /obj/item/stack/medical/mesh,
 /obj/item/stack/medical/suture,
 /obj/item/stack/medical/suture,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "hs" = (
@@ -973,6 +1000,9 @@
 /area/space)
 "is" = (
 /obj/machinery/vending/wardrobe/coroner_wardrobe,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "iw" = (
@@ -1038,7 +1068,7 @@
 /obj/item/storage/box/lights/bulbs{
 	pixel_y = 15
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/space)
 "jc" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners{
@@ -1240,6 +1270,9 @@
 	pixel_y = 3;
 	pixel_x = -2
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "kL" = (
@@ -1313,6 +1346,9 @@
 "li" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Recovery Ward"
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -1462,6 +1498,9 @@
 /obj/item/paper_bin{
 	pixel_y = 6
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "mc" = (
@@ -1499,6 +1538,15 @@
 	pixel_y = 4
 	},
 /turf/open/floor/iron/kitchen,
+/area/space)
+"mm" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/space)
 "mn" = (
 /obj/structure/bed,
@@ -1603,6 +1651,9 @@
 "na" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -1824,13 +1875,16 @@
 	name = "Recovery Ward";
 	id_tag = "ward-foyer"
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "po" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/floor/plating,
 /area/space)
 "pv" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -1951,6 +2005,9 @@
 "pT" = (
 /obj/machinery/door/airlock/medical{
 	name = "Recovery Room 1"
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -2487,7 +2544,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/floor/plating,
 /area/space)
 "ua" = (
 /obj/effect/turf_decal/siding/white{
@@ -2563,6 +2620,9 @@
 /area/space)
 "uF" = (
 /obj/item/kirbyplants/random,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 9
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "uJ" = (
@@ -2913,6 +2973,9 @@
 /area/space)
 "wX" = (
 /obj/structure/chair,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "wY" = (
@@ -3327,6 +3390,13 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"Bc" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/space)
 "Bf" = (
 /obj/structure/rack,
 /obj/item/grenade/chem_grenade/cleaner{
@@ -3389,6 +3459,9 @@
 "Bo" = (
 /obj/structure/table,
 /obj/item/stack/medical/gauze,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "Bu" = (
@@ -3465,6 +3538,7 @@
 /obj/structure/chair/sofa/bench{
 	dir = 1
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron/white,
 /area/space)
 "BR" = (
@@ -3701,6 +3775,9 @@
 	},
 /obj/item/storage/medkit{
 	pixel_y = 11
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -4027,6 +4104,12 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "Gr" = (
@@ -4140,7 +4223,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/floor/plating,
 /area/space)
 "HD" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners{
@@ -4392,6 +4475,9 @@
 "JE" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Recovery Ward Desk"
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -4713,7 +4799,10 @@
 /obj/structure/bodycontainer/morgue/beeper_off{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
 /area/space)
 "MJ" = (
 /obj/machinery/biogenerator,
@@ -4736,6 +4825,7 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 1
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron/white,
 /area/space)
 "MQ" = (
@@ -5371,6 +5461,9 @@
 	pixel_x = 5;
 	pixel_y = 9
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "RS" = (
@@ -5395,6 +5488,9 @@
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/pen,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "Sb" = (
@@ -5406,10 +5502,6 @@
 	pixel_y = 6
 	},
 /turf/open/floor/iron/dark,
-/area/space)
-"Sf" = (
-/obj/structure/table,
-/turf/open/floor/iron/white,
 /area/space)
 "Sh" = (
 /obj/structure/table,
@@ -5567,6 +5659,9 @@
 "TA" = (
 /obj/machinery/door/airlock/medical{
 	name = "Recovery Room 3"
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/space)
@@ -5763,6 +5858,12 @@
 /obj/structure/chair/office/light{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "Vg" = (
@@ -5880,7 +5981,7 @@
 "VV" = (
 /obj/structure/mop_bucket/janitorialcart,
 /obj/item/mop,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/space)
 "VW" = (
 /obj/structure/railing/corner{
@@ -6122,7 +6223,7 @@
 /obj/structure/table,
 /obj/item/storage/bag/trash,
 /obj/item/clothing/gloves/latex,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/space)
 "XC" = (
 /obj/effect/turf_decal/siding/white,
@@ -6160,6 +6261,15 @@
 	id = "janicloset"
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"XW" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
 /area/space)
 "XY" = (
 /obj/structure/table/wood/poker,
@@ -6317,6 +6427,9 @@
 /area/space)
 "YS" = (
 /obj/machinery/medical_kiosk,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/space)
 "YU" = (
@@ -94804,7 +94917,7 @@ yM
 On
 IZ
 yk
-Oo
+eB
 is
 yM
 yM
@@ -95061,8 +95174,8 @@ yM
 Bb
 IZ
 yk
-Oo
-Oo
+zI
+qh
 MI
 yM
 CI
@@ -95318,8 +95431,8 @@ yM
 YC
 cV
 yk
-Oo
-Oo
+zI
+qh
 MI
 yM
 CI
@@ -99942,8 +100055,8 @@ UW
 Zl
 lU
 yM
-PW
-PW
+hs
+hs
 pC
 BH
 Ua
@@ -100199,8 +100312,8 @@ xi
 Oo
 Oo
 yM
-PW
-PW
+hs
+hs
 zX
 qq
 fp
@@ -100456,8 +100569,8 @@ le
 Oo
 uL
 yM
-PW
-PW
+hs
+hs
 aZ
 Oo
 MQ
@@ -100713,8 +100826,8 @@ bZ
 Oo
 MU
 yM
-PW
-PW
+hs
+hs
 LI
 Oo
 MQ
@@ -100970,8 +101083,8 @@ yM
 yM
 yM
 yM
-PW
-PW
+hs
+hs
 yM
 yM
 gM
@@ -101220,18 +101333,18 @@ Oo
 Oo
 PX
 uF
-PW
-PW
-PW
+Jo
+Jo
+CY
 pn
-PW
-PW
+hs
+hs
 pn
-PW
-PW
+hs
+hs
 pT
-PW
-PW
+hs
+hs
 CO
 Zf
 Zf
@@ -101476,19 +101589,19 @@ Oo
 Fp
 Oo
 JU
+sv
 PW
 PW
-PW
-PW
+ty
 pn
-PW
-PW
+hs
+hs
 pn
-PW
-PW
+hs
+hs
 bq
 wX
-PW
+hs
 CO
 YU
 KE
@@ -101733,7 +101846,7 @@ Oo
 Fp
 Oo
 pI
-PW
+sv
 PW
 PW
 MN
@@ -101741,10 +101854,10 @@ yM
 Zf
 Zf
 yM
-PW
-PW
+hs
+hs
 bq
-Sf
+df
 fz
 CO
 QE
@@ -101990,7 +102103,7 @@ Oo
 Fp
 Oo
 lm
-PW
+sv
 PW
 PW
 BO
@@ -101998,8 +102111,8 @@ Zf
 bl
 bl
 hS
-PW
-PW
+hs
+hs
 yM
 yM
 yM
@@ -102247,19 +102360,19 @@ Oo
 Fp
 Oo
 PX
-uF
-PW
-PW
+Bc
+SX
+fE
 na
 Zf
 Oo
 Oo
 zI
-PW
-PW
+hs
+hs
 em
-PW
-PW
+hs
+hs
 CO
 CO
 CO
@@ -102512,11 +102625,11 @@ yM
 TD
 Sb
 lL
-PW
-PW
+hs
+hs
 bq
 wX
-PW
+hs
 yM
 CI
 CI
@@ -102763,16 +102876,16 @@ Oo
 PX
 RZ
 Ve
-PW
+hs
 JE
-PW
-PW
-PW
-PW
-PW
-PW
+hs
+hs
+hs
+hs
+hs
+hs
 bq
-Sf
+df
 fz
 yM
 CI
@@ -103019,15 +103132,15 @@ Fp
 Oo
 PX
 ma
-PW
-PW
+hs
+hs
 PX
-PW
-PW
-PW
-PW
-PW
-PW
+hs
+hs
+hs
+hs
+hs
+hs
 yM
 yM
 yM
@@ -103283,11 +103396,11 @@ yM
 yM
 yM
 yM
-PW
-PW
+hs
+hs
 TA
-PW
-PW
+hs
+hs
 yM
 CI
 CI
@@ -103540,11 +103653,11 @@ CI
 CI
 CI
 yM
-PW
-PW
+hs
+hs
 bq
 wX
-PW
+hs
 yM
 CI
 CI
@@ -103797,10 +103910,10 @@ CI
 CI
 CI
 yM
-PW
-PW
+hs
+hs
 bq
-Sf
+df
 fz
 yM
 CI
@@ -163156,10 +163269,10 @@ sA
 sA
 kN
 Go
-PW
-PW
-PW
-PW
+sd
+Jo
+sd
+ae
 yM
 Oo
 Fp
@@ -163412,11 +163525,11 @@ tM
 Fp
 Fp
 ct
-Go
+mm
 PW
 jX
 PW
-PW
+kS
 yM
 Oo
 Fp
@@ -163669,11 +163782,11 @@ dq
 gu
 gu
 Tq
-Go
+mm
 HF
 Je
 OQ
-PW
+kS
 PX
 Oo
 Fp
@@ -163922,15 +164035,15 @@ Oo
 Fp
 Oo
 JU
-PW
-PW
-jX
-PW
-PW
+Jz
+Jo
+XW
+Jo
+Sv
 PW
 FE
 PW
-PW
+ty
 jk
 Oo
 Fp
@@ -164179,7 +164292,7 @@ Oo
 Fp
 Oo
 pI
-PW
+sv
 HF
 Je
 OQ
@@ -164187,7 +164300,7 @@ PW
 PW
 PW
 PW
-PW
+ty
 Qp
 Oo
 Fp
@@ -164436,7 +164549,7 @@ Oo
 Fp
 Oo
 lm
-PW
+sv
 PW
 FE
 PW
@@ -164444,7 +164557,7 @@ PW
 PW
 PW
 PW
-PW
+ty
 Uo
 Oo
 Fp
@@ -164693,15 +164806,15 @@ Oo
 Fp
 Oo
 PX
-uF
+Bc
 YS
 ho
 Bo
 Dx
 kJ
-PW
-PW
-uF
+SX
+fE
+aF
 PX
 Oo
 Fp
@@ -167010,7 +167123,7 @@ Fp
 Oo
 yM
 Oo
-Oo
+JI
 Oo
 yM
 JI
@@ -167267,7 +167380,7 @@ Fp
 Oo
 yM
 Bf
-Oo
+JI
 Oo
 yM
 EW
@@ -167525,7 +167638,7 @@ Oo
 SZ
 Oo
 Oo
-Oo
+JI
 Oo
 Oo
 ja
@@ -167780,11 +167893,11 @@ Oo
 Fp
 Oo
 yM
-Oo
+JI
 Oo
 kc
 AR
-Oo
+JI
 RU
 yM
 Oo
@@ -168551,7 +168664,7 @@ Oo
 Fp
 Oo
 JL
-Oo
+JI
 VV
 yM
 Oo
@@ -168808,7 +168921,7 @@ Oo
 Fp
 Oo
 XQ
-Oo
+JI
 Yn
 yM
 Oo
