@@ -539,7 +539,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "cX" = (
 /obj/effect/turf_decal/siding/white{
@@ -1558,7 +1558,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "iO" = (
 /obj/structure/table/glass,
@@ -2944,7 +2944,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "pS" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -3036,7 +3036,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "qj" = (
 /obj/effect/turf_decal/siding/wood{
@@ -3931,7 +3931,7 @@
 /obj/structure/bodycontainer/morgue{
 	dir = 2
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "uX" = (
 /obj/effect/turf_decal/siding/white/corner{
@@ -4941,7 +4941,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "Bc" = (
 /obj/item/kirbyplants/random,
@@ -6421,12 +6421,6 @@
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
-"IZ" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners{
-	dir = 1
-	},
-/turf/open/floor/iron/checker,
-/area/space)
 "Jd" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -7055,7 +7049,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "MJ" = (
 /obj/machinery/biogenerator,
@@ -7107,7 +7101,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "MS" = (
 /obj/machinery/computer/warrant,
@@ -7401,7 +7395,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/white,
 /area/space)
 "Oo" = (
 /turf/open/floor/iron/dark,
@@ -9212,13 +9206,6 @@
 /turf/open/floor/iron/stairs/right{
 	dir = 8
 	},
-/area/space)
-"YC" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/blue/opposingcorners{
-	dir = 1
-	},
-/turf/open/floor/iron/checker,
 /area/space)
 "YD" = (
 /obj/effect/turf_decal/siding/wood{
@@ -97894,7 +97881,7 @@ hs
 pH
 yM
 On
-IZ
+hs
 yk
 eB
 is
@@ -98151,7 +98138,7 @@ Zl
 hg
 yM
 Bb
-IZ
+hs
 yk
 zI
 qh
@@ -98407,7 +98394,7 @@ Gm
 Gm
 Gm
 yM
-YC
+df
 cV
 yk
 zI
@@ -99952,9 +99939,9 @@ Oo
 Oo
 Oo
 zI
-IZ
-IZ
-IZ
+hs
+hs
+hs
 pR
 yM
 CI
