@@ -186,6 +186,12 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"bh" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/hooded/ablative,
+/obj/item/melee/hammer,
+/turf/open/floor/iron/dark,
+/area/space)
 "bj" = (
 /obj/structure/table,
 /obj/item/clothing/neck/tie/red/tied,
@@ -326,6 +332,14 @@
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
 	},
+/turf/open/floor/iron/dark,
+/area/space)
+"bV" = (
+/obj/structure/closet/ammunitionlocker/useful,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
 /turf/open/floor/iron/dark,
 /area/space)
 "bW" = (
@@ -1170,6 +1184,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/space)
+"gZ" = (
+/obj/machinery/dish_drive/bullet{
+	succrange = 2
+	},
+/turf/open/floor/iron,
+/area/space)
 "ha" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -1181,6 +1201,10 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
+/area/space)
+"hd" = (
+/obj/structure/closet/secure_closet/evidence,
+/turf/open/floor/iron,
 /area/space)
 "hf" = (
 /obj/structure/bed{
@@ -1256,6 +1280,18 @@
 "ht" = (
 /obj/structure/chair/stool/bar/directional/east,
 /turf/open/floor/iron/white,
+/area/space)
+"hw" = (
+/obj/machinery/door/poddoor/shutters/window{
+	id = "armory2";
+	name = "Armory Shutters"
+	},
+/obj/machinery/button/door/directional/east{
+	id = "armory2";
+	name = "Armory Shutters";
+	req_access = list("armory")
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "hx" = (
 /obj/structure/railing{
@@ -3260,6 +3296,12 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"rc" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Evidence Storage"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "re" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/kitchen/small,
@@ -4299,6 +4341,22 @@
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /turf/open/floor/iron/white,
 /area/space)
+"wu" = (
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/shotguns,
+/turf/open/floor/iron,
+/area/space)
+"wx" = (
+/obj/structure/rack/gunrack,
+/obj/item/gun/energy/ionrifle{
+	pixel_y = -8
+	},
+/obj/item/gun/energy/temperature/security,
+/obj/item/gun/grenadelauncher{
+	pixel_y = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "wE" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen{
@@ -4311,6 +4369,15 @@
 /area/space)
 "wF" = (
 /obj/machinery/hydroponics/constructable,
+/turf/open/floor/iron,
+/area/space)
+"wG" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Evidence Storage"
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/space)
 "wH" = (
@@ -4463,6 +4530,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"xl" = (
+/obj/machinery/door/airlock/security{
+	name = "Armory"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "xp" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/misc/grass/jungle/planet,
@@ -4500,6 +4573,14 @@
 	pixel_x = 7
 	},
 /turf/open/floor/wood,
+/area/space)
+"xA" = (
+/obj/structure/rack,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/flashes{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "xC" = (
 /obj/structure/toilet{
@@ -4798,6 +4879,13 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron/white,
+/area/space)
+"zB" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/evidence,
+/turf/open/floor/iron,
 /area/space)
 "zI" = (
 /obj/effect/turf_decal/siding/white,
@@ -5922,6 +6010,21 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"Fo" = (
+/obj/machinery/door/poddoor/shutters/window{
+	id = "armory";
+	name = "Armory Shutters"
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/machinery/button/door/directional/south{
+	id = "armory";
+	name = "Armory Shutters";
+	req_access = list("armory")
+	},
+/turf/open/floor/iron,
+/area/space)
 "Fp" = (
 /turf/open/floor/iron,
 /area/space)
@@ -6054,6 +6157,35 @@
 /obj/item/clothing/ears/earmuffs,
 /turf/open/floor/iron/dark,
 /area/space)
+"Gi" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/item/grenade/barrier{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/item/grenade/barrier{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/grenade/barrier{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/grenade/barrier{
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/obj/item/grenade/barrier{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/grenade/barrier{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Gj" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -6091,6 +6223,39 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"Gp" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/riot{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/clothing/suit/armor/riot{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/clothing/suit/armor/riot{
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/armor/bulletproof{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/clothing/suit/armor/bulletproof{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/clothing/suit/armor/bulletproof{
+	pixel_x = 8
+	},
+/obj/item/shield/riot{
+	pixel_y = 8
+	},
+/obj/item/shield/riot{
+	pixel_y = 4
+	},
+/obj/item/shield/riot,
+/turf/open/floor/iron,
 /area/space)
 "Gr" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -6787,6 +6952,23 @@
 	dir = 8
 	},
 /area/space)
+"Kk" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/item/storage/barricade{
+	pixel_y = 8
+	},
+/obj/item/storage/barricade{
+	pixel_y = 6
+	},
+/obj/item/storage/barricade{
+	pixel_y = 4
+	},
+/obj/item/storage/barricade{
+	pixel_y = 2
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Kl" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron/dark,
@@ -7181,6 +7363,11 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/iron,
 /area/space)
+"Mp" = (
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/cmg,
+/turf/open/floor/iron,
+/area/space)
 "Mq" = (
 /obj/machinery/door/airlock/asylum{
 	name = "Asylum Foyer"
@@ -7297,6 +7484,15 @@
 /area/space)
 "Nd" = (
 /obj/structure/chair/sofa/middle,
+/turf/open/floor/iron,
+/area/space)
+"Nf" = (
+/obj/machinery/door/airlock/security{
+	name = "Armory"
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/space)
 "Ni" = (
@@ -8240,6 +8436,11 @@
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/kitchen,
 /area/space)
+"Sz" = (
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/microfusion,
+/turf/open/floor/iron,
+/area/space)
 "SB" = (
 /obj/structure/chair/stool/bar/directional/north,
 /turf/open/floor/wood,
@@ -8387,6 +8588,10 @@
 	},
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/misc/grass/jungle/planet,
+/area/space)
+"To" = (
+/obj/structure/closet/secure_closet/smartgun,
+/turf/open/floor/iron/dark,
 /area/space)
 "Tp" = (
 /obj/machinery/hydroponics/soil/fake_turf,
@@ -8698,6 +8903,46 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"UZ" = (
+/obj/structure/rack,
+/obj/item/clothing/head/helmet/toggleable/riot{
+	pixel_y = 8;
+	pixel_x = -8
+	},
+/obj/item/clothing/head/helmet/toggleable/riot{
+	pixel_y = 4;
+	pixel_x = -8
+	},
+/obj/item/clothing/head/helmet/toggleable/riot{
+	pixel_x = -8
+	},
+/obj/item/clothing/head/helmet/alt{
+	pixel_y = 8;
+	pixel_x = 8
+	},
+/obj/item/clothing/head/helmet/alt{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/item/clothing/head/helmet/alt{
+	pixel_x = 8
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses{
+	pixel_y = 8
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses{
+	pixel_y = 4
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses,
+/obj/item/clothing/glasses/hud/security/sunglasses/gars{
+	pixel_y = 8
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses/gars{
+	pixel_y = 4
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses/gars,
+/turf/open/floor/iron,
+/area/space)
 "Va" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /turf/open/floor/wood,
@@ -8801,6 +9046,13 @@
 	name = "Unit 3"
 	},
 /turf/open/floor/iron/freezer,
+/area/space)
+"VJ" = (
+/obj/machinery/door/poddoor/shutters/window{
+	id = "armory2";
+	name = "Armory Shutters"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "VL" = (
 /obj/effect/turf_decal/trimline/green/filled/warning{
@@ -9378,6 +9630,12 @@
 /obj/effect/spawner/random/entertainment/deck,
 /turf/open/floor/wood,
 /area/space)
+"Yw" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Yx" = (
 /obj/structure/mop_bucket,
 /turf/open/floor/iron/dark,
@@ -9531,6 +9789,10 @@
 	pixel_y = 10
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"Zs" = (
+/obj/machinery/ammo_workbench,
+/turf/open/floor/iron,
 /area/space)
 "Zu" = (
 /obj/machinery/door/window/right/directional/north{
@@ -87723,12 +87985,12 @@ Oo
 Oo
 Oo
 CO
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
@@ -87979,13 +88241,13 @@ CO
 Oo
 Oo
 Oo
+Zf
+Wn
+Oo
+zB
+hd
+hd
 CO
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -88236,13 +88498,13 @@ CO
 Oo
 Oo
 Oo
+rc
+Oo
+Oo
+tA
+Fp
+Fp
 CO
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -88493,13 +88755,13 @@ Zf
 Oo
 Oo
 Oo
+Zf
+Oo
+Oo
+tA
+Fp
+hd
 CO
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -88750,12 +89012,12 @@ Oo
 Oo
 Oo
 Oo
-CO
-CO
-CO
-CO
-CO
-CO
+yM
+Zf
+Zf
+Zf
+wG
+yM
 CO
 CI
 CI
@@ -89265,7 +89527,7 @@ Oo
 Oo
 Oo
 QU
-Oo
+Yw
 Oo
 Oo
 tA
@@ -90553,10 +90815,10 @@ nv
 Oo
 Oo
 CO
+Nf
 CO
 CO
 CO
-CI
 CI
 CI
 CI
@@ -90807,13 +91069,13 @@ Oo
 Oo
 Oo
 CO
+VJ
+Fo
 CO
+Fp
+Zs
+gZ
 CO
-CO
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -91063,14 +91325,14 @@ Zf
 Oo
 Oo
 Oo
+VJ
+Oo
+tA
+Fp
+Fp
+Fp
+Fp
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -91320,14 +91582,14 @@ Zf
 Oo
 Oo
 Oo
+VJ
+Oo
+tA
+UZ
+wx
+Gp
+Fp
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -91577,14 +91839,14 @@ Zf
 Oo
 Oo
 Oo
+hw
+Oo
+tA
+Fp
+Fp
+Fp
+Fp
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -91835,13 +92097,13 @@ Oo
 Oo
 Oo
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+Oo
+tA
+wu
+Sz
+Mp
+Fp
+CO
 CI
 CI
 CI
@@ -92091,14 +92353,14 @@ CO
 Oo
 Oo
 Oo
+xl
+Oo
+OU
+gu
+gu
+gu
+gu
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
 CI
 CI
 CI
@@ -92349,13 +92611,13 @@ Oo
 Oo
 Oo
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+bV
+Kk
+xA
+bh
+Gi
+To
+CO
 CI
 CI
 CI
@@ -92606,13 +92868,13 @@ Oo
 Oo
 Oo
 CO
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
