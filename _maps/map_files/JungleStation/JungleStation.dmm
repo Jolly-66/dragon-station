@@ -33,6 +33,10 @@
 /obj/effect/spawner/random/clothing/costume,
 /turf/open/floor/wood,
 /area/space)
+"ag" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/iron/dark,
+/area/space)
 "ah" = (
 /obj/machinery/plumbing/sender,
 /turf/open/floor/plating,
@@ -574,6 +578,22 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"cl" = (
+/obj/machinery/door/window/brigdoor/left/directional/west{
+	name = "Primary AI Core Access";
+	req_access = list("ai_upload")
+	},
+/obj/machinery/turretid{
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = -23
+	},
+/obj/machinery/flasher/directional/north{
+	id = "AI"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "cm" = (
 /obj/structure/table,
 /obj/machinery/fax{
@@ -717,6 +737,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"cW" = (
+/obj/structure/table_frame,
+/turf/open/floor/iron/dark,
 /area/space)
 "cX" = (
 /obj/effect/turf_decal/siding/white{
@@ -890,6 +914,10 @@
 "dF" = (
 /obj/machinery/oven/range,
 /turf/open/floor/wood,
+/area/space)
+"dG" = (
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plating,
 /area/space)
 "dH" = (
 /obj/machinery/door/airlock/hop{
@@ -1818,6 +1846,14 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/space)
+"hH" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI Core Shutters"
+	},
+/turf/open/floor/plating,
+/area/space)
 "hI" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/spawner/random/contraband/prison,
@@ -2459,11 +2495,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
-"kf" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "AI Chamber"
-	},
-/area/space)
 "kj" = (
 /obj/machinery/computer/communications,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -2519,6 +2550,10 @@
 	name = "Prison Entrance Flash Button"
 	},
 /turf/open/floor/iron/dark/small,
+/area/space)
+"kB" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/floor/iron/dark,
 /area/space)
 "kD" = (
 /obj/machinery/shower/directional/north,
@@ -3050,6 +3085,16 @@
 /obj/structure/closet/secure_closet/chief_medical,
 /turf/open/floor/carpet/blue,
 /area/space)
+"mD" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Chamber"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "AI Chamber entrance shutters";
+	name = "AI Chamber Entrance Shutters"
+	},
+/turf/open/space/basic,
+/area/space)
 "mE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -3235,6 +3280,12 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood,
+/area/space)
+"nf" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/turf/open/floor/circuit,
 /area/space)
 "ng" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -3554,6 +3605,12 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/dark,
 /area/space)
+"ok" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "op" = (
 /obj/structure/table/wood,
 /obj/machinery/fax{
@@ -3571,6 +3628,12 @@
 "ou" = (
 /obj/machinery/portable_atmospherics/canister/water_vapor,
 /turf/open/floor/iron/dark,
+/area/space)
+"ov" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/circuit,
 /area/space)
 "ow" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
@@ -4908,6 +4971,12 @@
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/iron/dark,
 /area/space)
+"tp" = (
+/obj/structure/table_frame,
+/obj/item/stack/sheet/mineral/silver,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/dark,
+/area/space)
 "tq" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Massage Parlor"
@@ -5151,6 +5220,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"un" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/iron/dark,
 /area/space)
 "uo" = (
 /turf/open/floor/carpet/donk,
@@ -7115,6 +7188,14 @@
 	},
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"BZ" = (
+/obj/item/mmi,
+/obj/structure/table_frame,
+/obj/item/mmi{
+	pixel_y = 3
+	},
+/turf/open/floor/plating,
+/area/space)
 "Cb" = (
 /obj/structure/chair{
 	dir = 1;
@@ -7158,6 +7239,10 @@
 	},
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/iron/kitchen/small,
+/area/space)
+"Cj" = (
+/obj/machinery/teleport/station,
+/turf/open/floor/iron/dark,
 /area/space)
 "Ck" = (
 /obj/structure/urinal/directional/north,
@@ -7245,6 +7330,32 @@
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
+/area/space)
+"CC" = (
+/obj/effect/landmark/start/ai/secondary,
+/obj/machinery/door/window/brigdoor/left/directional/south{
+	name = "Secondary AI Core Access";
+	req_access = list("ai_upload")
+	},
+/obj/item/radio/intercom/directional/west{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/east{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "Private Channel"
+	},
+/turf/open/floor/circuit/green,
 /area/space)
 "CF" = (
 /obj/machinery/door/airlock/virology{
@@ -7478,6 +7589,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Dv" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/iron,
+/area/space)
 "Dx" = (
 /obj/structure/table,
 /obj/item/storage/medkit{
@@ -7641,6 +7758,13 @@
 /obj/item/pen,
 /turf/open/floor/wood/parquet,
 /area/space)
+"Ed" = (
+/obj/structure/table,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 35
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Ee" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/wood,
@@ -7691,6 +7815,40 @@
 	},
 /obj/effect/turf_decal/trimline/dark_blue/filled/corner,
 /turf/open/floor/iron,
+/area/space)
+"Em" = (
+/obj/effect/landmark/start/ai,
+/obj/item/radio/intercom/directional/west{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/east{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/south{
+	freerange = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "Private Channel"
+	},
+/obj/machinery/button/door/directional/south{
+	id = "AI Chamber entrance shutters";
+	name = "AI Chamber Entrance Shutters Control";
+	pixel_x = -24;
+	req_access = list("ai_upload")
+	},
+/obj/machinery/button/door/directional/south{
+	id = "AI Core shutters";
+	name = "AI Core Shutters Control";
+	pixel_x = 24;
+	req_access = list("ai_upload")
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Eo" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -7870,6 +8028,12 @@
 "EZ" = (
 /obj/machinery/computer/crew,
 /turf/open/floor/iron/dark/small,
+/area/space)
+"Fb" = (
+/obj/machinery/flasher/directional/east{
+	id = "AI"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Fd" = (
 /turf/open/floor/carpet,
@@ -8690,6 +8854,10 @@
 	id = "hopqueue";
 	name = "HoP Queue Shutters"
 	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Ig" = (
+/obj/machinery/requests_console/auto_name/directional/west,
 /turf/open/floor/iron/dark,
 /area/space)
 "Ih" = (
@@ -9645,6 +9813,10 @@
 	},
 /turf/open/floor/iron/herringbone,
 /area/space)
+"Mi" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/dark,
+/area/space)
 "Mj" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -9700,6 +9872,12 @@
 "Mu" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron,
+/area/space)
+"Mv" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Mw" = (
 /obj/machinery/computer/upload/ai{
@@ -10314,6 +10492,15 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"OR" = (
+/obj/machinery/porta_turret/ai,
+/obj/machinery/button/door/directional/west{
+	id = "ai-flash";
+	name = "Room Flash Button";
+	req_access = list("ai_upload")
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "OT" = (
 /obj/structure/flora/bush/stalky/style_random,
 /turf/open/misc/dirt,
@@ -10569,6 +10756,17 @@
 	},
 /turf/open/floor/circuit/red,
 /area/space)
+"PK" = (
+/obj/structure/table,
+/obj/machinery/cell_charger_multi{
+	pixel_y = 3
+	},
+/obj/item/crowbar,
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron/dark,
+/area/space)
 "PL" = (
 /obj/machinery/computer/department_orders/security,
 /turf/open/floor/iron/dark,
@@ -10597,6 +10795,32 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"PS" = (
+/obj/effect/landmark/start/ai/secondary,
+/obj/machinery/door/window/brigdoor/right/directional/south{
+	name = "Tertiary AI Core Access";
+	req_access = list("ai_upload")
+	},
+/obj/item/radio/intercom/directional/west{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/east{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -8
+	},
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "Private Channel"
+	},
+/turf/open/floor/circuit/green,
 /area/space)
 "PT" = (
 /obj/effect/turf_decal/siding/wood{
@@ -10948,6 +11172,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Rv" = (
+/obj/machinery/teleport/hub,
+/turf/open/floor/iron/dark,
+/area/space)
 "Ry" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Diner Side Entrnance"
@@ -11025,6 +11253,12 @@
 	},
 /obj/item/pen/fourcolor,
 /turf/open/floor/iron/white,
+/area/space)
+"RJ" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "RO" = (
 /obj/machinery/door/airlock/security/glass{
@@ -11779,6 +12013,15 @@
 /obj/structure/flora/tree/jungle/style_5,
 /turf/open/misc/grass/jungle/planet,
 /area/space)
+"UH" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4
+	},
+/obj/machinery/flasher/directional/north{
+	id = "AI"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "UL" = (
 /obj/item/bikehorn/rubberducky,
 /turf/open/floor/iron/freezer,
@@ -11879,6 +12122,10 @@
 "Va" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /turf/open/floor/wood,
+/area/space)
+"Vb" = (
+/obj/machinery/computer/teleporter,
+/turf/open/floor/iron/dark,
 /area/space)
 "Ve" = (
 /obj/structure/chair/office/light{
@@ -12193,6 +12440,12 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/checker,
 /area/space)
+"Wt" = (
+/obj/machinery/flasher/directional/west{
+	id = "AI"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Wu" = (
 /obj/machinery/photocopier,
 /turf/open/floor/iron/dark/small,
@@ -12214,6 +12467,16 @@
 	pixel_x = -7
 	},
 /turf/open/floor/wood/tile,
+/area/space)
+"Wy" = (
+/obj/machinery/door/window/brigdoor/right/directional/east{
+	name = "Primary AI Core Access";
+	req_access = list("ai_upload")
+	},
+/obj/machinery/flasher/directional/north{
+	id = "AI"
+	},
+/turf/open/floor/circuit,
 /area/space)
 "WA" = (
 /obj/structure/table/reinforced,
@@ -13072,6 +13335,15 @@
 /obj/effect/mapping_helpers/trapdoor_placer,
 /turf/open/floor/iron/freezer,
 /area/space)
+"ZD" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Storage"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/welded,
+/turf/open/floor/iron/dark,
+/area/space)
 "ZE" = (
 /obj/structure/closet/secure_closet/hydroponics,
 /obj/effect/turf_decal/tile/dark_green/opposingcorners{
@@ -13104,6 +13376,12 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/trimline/red/filled/corner,
+/turf/open/floor/iron/dark,
+/area/space)
+"ZL" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Teleporter"
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "ZM" = (
@@ -30293,13 +30571,13 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
@@ -30550,15 +30828,15 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+JI
+JI
+CO
+CO
+CO
 CI
 CI
 CI
@@ -30795,29 +31073,29 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+CO
+CO
 CI
 CI
 CI
@@ -31051,31 +31329,31 @@ CI
 CI
 CI
 CI
+CO
+CO
+un
+JI
+Oo
+CO
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+CO
 CI
 CI
 CI
@@ -31297,42 +31575,42 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+dG
+JI
+JI
+Mi
+BZ
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
+JI
+CO
 CI
 CI
 CI
@@ -31553,43 +31831,43 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+Ed
+JI
+kB
+Oo
+tp
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+CO
+CO
+CO
+JI
+JI
+JI
+CO
+CO
+CO
+JI
+JI
+JI
+CO
 CI
 CO
 CO
@@ -31810,43 +32088,43 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+cW
+JI
+Oo
+JI
+JI
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+CO
 CO
 CO
 xN
@@ -32066,44 +32344,44 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
 CO
 CO
 CO
 CO
 CO
+RJ
+Wt
+Oo
+nf
+ok
+Wt
+Ig
+RJ
+CO
+CO
+CO
+ZD
+CO
+CO
 CO
 CI
-CI
+CO
 JI
 JI
 JI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
 JI
 JI
 JI
-CI
+JI
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
 CO
 sH
 sH
@@ -32323,23 +32601,23 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
+CO
+CO
+CO
+CO
+CC
+dQ
+dQ
+dQ
+ov
+dQ
+dQ
+dQ
 Oo
 CO
 DM
 Su
+dQ
 Oo
 Oo
 CO
@@ -32351,9 +32629,9 @@ CO
 CO
 CO
 CO
-CI
-CI
-CI
+JI
+JI
+JI
 CO
 CO
 CO
@@ -32364,7 +32642,7 @@ CO
 CO
 Ky
 Oo
-Oo
+Mv
 Oo
 Oo
 TS
@@ -32580,24 +32858,24 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+dQ
+CO
+cl
+CO
+CO
 Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
+dQ
 Oo
 CO
 tB
-Oo
-Oo
+dQ
+dQ
+dQ
 Oo
 CO
 Fp
@@ -32608,16 +32886,16 @@ CG
 CG
 eV
 CO
-CI
-CI
-CI
+JI
+JI
+JI
 CO
 xP
 Dd
 Dd
 Fp
 CO
-DM
+OR
 Oo
 Oo
 dQ
@@ -32837,37 +33115,37 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-kf
-Oo
-Oo
-Oo
-Oo
+CO
+CO
+CO
+dQ
+ov
+dQ
+hH
+dQ
+Em
+CO
+UH
+ov
+dQ
+mD
+dQ
+dQ
+Mv
+dQ
+dQ
 UR
 Fp
-Fp
+Dv
 Fp
 Fp
 Qp
 Qp
 AU
 CO
-CI
-CI
-CI
+JI
+JI
+JI
 CO
 xP
 Qd
@@ -32875,13 +33153,13 @@ Qd
 Fp
 bO
 Oo
-Oo
+Mv
 Oo
 Mw
 Qu
 lh
 Oo
-Oo
+Mv
 Oo
 CO
 CI
@@ -33094,24 +33372,24 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+dQ
+CO
+Wy
+CO
+CO
 Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
+dQ
 Oo
 CO
 tB
-Oo
-Oo
+dQ
+dQ
+dQ
 Oo
 CO
 Fp
@@ -33122,9 +33400,9 @@ Vi
 Vi
 AU
 CO
-CI
-CI
-CI
+JI
+JI
+JI
 CO
 xP
 uM
@@ -33351,23 +33629,23 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
+CO
+CO
+CO
+CO
+PS
+dQ
+dQ
+dQ
+ov
+dQ
+dQ
+dQ
 Oo
 CO
 DM
 Ff
+dQ
 Oo
 Oo
 CO
@@ -33379,9 +33657,9 @@ CO
 CO
 CO
 CO
-CI
-CI
-CI
+JI
+JI
+JI
 CO
 CO
 CO
@@ -33392,7 +33670,7 @@ CO
 CO
 Ky
 Oo
-Oo
+Mv
 Oo
 Oo
 PC
@@ -33608,44 +33886,44 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
-Oo
 CO
 CO
 CO
 CO
 CO
+RJ
+Fb
+Oo
+dQ
+Oo
+Oo
+Fb
+RJ
+CO
+CO
+CO
+ZL
+CO
+CO
 CO
 CI
-CI
+CO
 JI
 JI
 JI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
 JI
 JI
 JI
-CI
+JI
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
 CO
 dU
 dU
@@ -33866,43 +34144,43 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+Vb
+Oo
+Oo
+Oo
+ag
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+CO
 CO
 CO
 PJ
@@ -34123,43 +34401,43 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+Cj
+Oo
+Oo
+Oo
+PK
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+CO
+CO
+CO
+JI
+JI
+JI
+CO
+CO
+CO
+JI
+JI
+JI
+CO
 CI
 CO
 CO
@@ -34381,42 +34659,42 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+Rv
+Oo
+Oo
+Oo
+ag
+CO
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+CO
+JI
+JI
+JI
+JI
+JI
+CO
 CI
 CI
 CI
@@ -34649,31 +34927,31 @@ CI
 CI
 CI
 CI
+CO
+CO
+Oo
+Oo
+Oo
+CO
+CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+CO
 CI
 CI
 CI
@@ -34907,29 +35185,29 @@ CI
 CI
 CI
 CI
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+CO
+CO
+CO
 CI
 CI
 CI
@@ -35176,15 +35454,15 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+JI
+JI
+JI
+JI
+JI
+CO
+CO
+CO
 CI
 CI
 CI
@@ -35433,13 +35711,13 @@ CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
