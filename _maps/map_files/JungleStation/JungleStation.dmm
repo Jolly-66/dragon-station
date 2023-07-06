@@ -221,7 +221,7 @@
 "bh" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hooded/ablative,
-/obj/item/melee/hammer,
+/obj/item/melee/breaching_hammer,
 /turf/open/floor/iron/dark/small,
 /area/space)
 "bj" = (
@@ -2750,6 +2750,14 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"mi" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/preopen{
+	id = "hop";
+	name = "Privacy Shutters"
+	},
+/turf/open/floor/plating,
+/area/space)
 "mj" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/iron/dark,
@@ -2917,6 +2925,12 @@
 /obj/machinery/door/window/left/directional/west,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
+/area/space)
+"mP" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "mQ" = (
 /obj/structure/ladder,
@@ -4495,6 +4509,13 @@
 	},
 /obj/machinery/door/window/left/directional/west{
 	name = "Reception Window"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "hop";
+	name = "Privacy Shutters"
+	},
+/obj/structure/desk_bell{
+	pixel_y = 11
 	},
 /turf/open/floor/iron/dark,
 /area/space)
@@ -6796,6 +6817,11 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/space)
+"CG" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 1
+	},
+/area/space)
 "CH" = (
 /obj/machinery/door/airlock/hop{
 	name = "Head of Personnel's Office"
@@ -7112,6 +7138,13 @@
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron/white,
 /area/space)
+"DR" = (
+/obj/machinery/flasher/directional/north{
+	id = "hopflash"
+	},
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/space)
 "DS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/right/directional/west{
@@ -7395,6 +7428,16 @@
 	dir = 4
 	},
 /turf/open/misc/grass/jungle/planet,
+/area/space)
+"Fk" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "hopqueue";
+	name = "HoP Queue Shutters"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Fm" = (
 /obj/machinery/computer/security{
@@ -8113,6 +8156,10 @@
 	dir = 4
 	},
 /obj/machinery/ticket_machine/directional/north,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "hopqueue";
+	name = "HoP Queue Shutters"
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "Ih" = (
@@ -8218,6 +8265,10 @@
 	name = "Sector Lockdown";
 	id = "sector-down"
 	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Iz" = (
+/obj/structure/stairs/south,
 /turf/open/floor/iron/dark,
 /area/space)
 "IA" = (
@@ -11972,6 +12023,23 @@
 /area/space)
 "Yz" = (
 /obj/machinery/modular_computer/preset/id,
+/obj/machinery/button/door/directional/west{
+	pixel_y = 8;
+	id = "hop";
+	name = "Privacy Shutters Control"
+	},
+/obj/machinery/button/door/directional/west{
+	id = "hopqueue";
+	name = "Queue Shutters Control"
+	},
+/obj/machinery/button/flasher{
+	id = "hopflash";
+	pixel_x = -24;
+	pixel_y = -8
+	},
+/obj/machinery/button/ticket_machine{
+	pixel_x = -36
+	},
 /turf/open/floor/wood/tile,
 /area/space)
 "YC" = (
@@ -96277,7 +96345,7 @@ CI
 CI
 CI
 CI
-CI
+yM
 CO
 CO
 CO
@@ -96534,7 +96602,7 @@ CI
 CI
 CI
 CI
-CI
+yM
 JI
 JI
 JI
@@ -96791,7 +96859,7 @@ CI
 CI
 CI
 CI
-CI
+yM
 JI
 JI
 JI
@@ -97048,7 +97116,7 @@ CI
 CI
 CI
 CI
-CI
+yM
 JI
 JI
 JI
@@ -97290,6 +97358,7 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
@@ -97304,8 +97373,7 @@ CI
 CI
 CI
 CI
-CI
-CI
+yM
 JI
 JI
 JI
@@ -97547,6 +97615,7 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
@@ -97561,8 +97630,7 @@ CI
 CI
 CI
 CI
-CI
-CI
+yM
 JI
 JI
 JI
@@ -97804,6 +97872,7 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
@@ -97818,8 +97887,7 @@ CI
 CI
 CI
 CI
-CI
-CI
+yM
 JI
 JI
 JI
@@ -98061,22 +98129,22 @@ CI
 CI
 CI
 CI
+Oo
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+yM
 JI
 JI
 JI
@@ -98318,22 +98386,22 @@ CI
 CI
 CI
 CI
+Oo
+mP
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+CG
+CG
+Iz
+CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+yM
 JI
 JI
 yM
@@ -98575,22 +98643,22 @@ CI
 CI
 CI
 CI
+Oo
+mP
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Vi
+Vi
+Iz
+CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+yM
 JI
 JI
 yM
@@ -98832,22 +98900,22 @@ CI
 CI
 CI
 CI
+Oo
+CO
+CO
+CO
+CO
+CO
+EW
+CO
+CO
+CO
+CO
+CO
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+yM
 JI
 JI
 yM
@@ -99089,22 +99157,22 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+yM
 JI
 JI
 yM
@@ -99346,22 +99414,22 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+EW
 JI
 JI
 yM
@@ -99603,22 +99671,22 @@ CI
 CI
 CI
 CI
+Oo
 CI
 CI
 CI
 CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
-CI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+JI
+yM
 JI
 JI
 JI
@@ -99873,9 +99941,9 @@ CO
 CO
 CO
 CO
-CI
-CI
-CI
+JI
+JI
+yM
 JI
 JI
 JI
@@ -100130,9 +100198,9 @@ yM
 ha
 hf
 CO
-CI
-CI
-CI
+JI
+JI
+yM
 JI
 JI
 JI
@@ -160520,7 +160588,7 @@ Ii
 Ii
 Ii
 yM
-lI
+Oo
 Oo
 Oo
 Oo
@@ -160777,7 +160845,7 @@ Ii
 Ii
 Ii
 yM
-tM
+Fp
 Fp
 Fp
 Fp
@@ -161034,11 +161102,11 @@ Ii
 Ii
 Ii
 yM
-Pu
 Oo
 Oo
-Oo
-Oo
+xW
+RW
+EV
 Oo
 Oo
 Oo
@@ -161296,7 +161364,7 @@ If
 PX
 PX
 PX
-Tv
+Fk
 CO
 cK
 cK
@@ -161548,7 +161616,7 @@ Ii
 Ii
 Ii
 yM
-Oo
+DR
 Oo
 Oo
 Oo
@@ -161807,10 +161875,10 @@ CO
 CO
 CO
 td
-Zf
-Zf
-Zf
-Zf
+mi
+mi
+mi
+mi
 CO
 Oo
 Oo
@@ -162060,7 +162128,7 @@ CO
 wm
 vu
 vu
-CO
+yM
 KK
 Yz
 XA
@@ -162068,7 +162136,7 @@ mN
 SW
 jT
 kc
-CO
+yM
 Oo
 Oo
 CO
@@ -162317,7 +162385,7 @@ CO
 wP
 vu
 vu
-CO
+yM
 vu
 Wx
 vu
@@ -162325,7 +162393,7 @@ vu
 vu
 jT
 Oo
-CO
+yM
 Oo
 Oo
 CO
@@ -162831,8 +162899,8 @@ Ii
 CO
 fR
 fR
-CO
-CO
+yM
+yM
 xm
 vu
 Br
@@ -163089,7 +163157,7 @@ CO
 Cc
 lV
 lV
-CO
+yM
 bv
 vu
 jh
@@ -163346,7 +163414,7 @@ CO
 CO
 lV
 xf
-CO
+yM
 fB
 kn
 Vo
@@ -163608,8 +163676,8 @@ CO
 CO
 CO
 CO
-CO
-CO
+Zf
+Zf
 CO
 Oo
 Oo
@@ -163861,13 +163929,13 @@ Ii
 Ii
 Ii
 Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
 CO
+vJ
+vJ
+vJ
+Oo
+Oo
+cK
 Oo
 Oo
 CO
@@ -164118,13 +164186,13 @@ Ii
 Ii
 Ii
 Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
 CO
+vJ
+vJ
+vJ
+Oo
+Oo
+cK
 Oo
 Oo
 CO
@@ -164375,12 +164443,12 @@ Ii
 Ii
 Ii
 Ii
-Ii
-Ii
-Ii
-Ii
-Ii
-Ii
+CO
+CO
+CO
+CO
+CO
+CO
 CO
 CO
 CO
